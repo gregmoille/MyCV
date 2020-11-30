@@ -18,7 +18,7 @@
 \documentclass[11pt, letterpaper]{awesome-cv}
 
 % Configure page margins with geometry
-\geometry{left=1.2cm, top=.8cm, right=1.85cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1cm, top=.8cm, right=2cm, bottom=1.8cm, footskip=.5cm}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -26,7 +26,7 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{orangepantone}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -52,7 +52,7 @@
 % \photo{./examples/profile.png}
 \name{Gregory}{Moille}
 %\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{3040 Idaho Ave NW, Apt 423 - Washington, DC, 20016 - U.S.A}
+\address{3040 Idaho Ave NW, Apt 423\\Washington, DC, 20016 - U.S.A}
 
 \mobile{(+1)202-320-0113}
 \email{gmoille@umd.edu}
@@ -100,28 +100,172 @@
 %	CONTENT
 %-------------------------------------------------------------------------------
 \begin{cventries}%
-\cvsection{Education}%
+\cvsection{Education}{}%
 \cventry%
-    {B.S. in Computer Science and Engineering} % Degree
-    {POSTECH(Pohang University of Science and Technology)} % Institution
-    {Pohang, S.Korea} % Location
-    {Mar. 2010 - Aug. 2017} % Date(s)
+    {M.S. Physics} % Degree
+    {Grenoble INP - Phelma } % Institution
+    {Grenoble, France} % Location
+    {Sep. 2007 - Aug. 2012} % Date(s)
     {
       \begin{cvitems} % Description(s) bullet points
-        \item {Got a Chun Shin-Il Scholarship which is given to promising students in CSE Dept.}
+        \item {some stuff}
+      \end{cvitems}
+    }
+\cventry%
+    {Ph.D. Physics} % Degree
+    {University Paris Saclay} % Institution
+    {Paris, France} % Location
+    {Dec. 2012 - July 2016} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {some sutff}
+      \end{cvitems}
+    }
+\end{cventries}
+
+
+% =================================================================================================================================================================================================================================
+\begin{cventries}%
+\cvsection{Experience}{}%
+\cventry
+    {Postdoctoral Associate} % Job title
+    {University of Maryland - National Institure of Standards and Technology} % Organization
+    {Maryland, USA} % Location
+    {Feb. 2017 - present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {some stuff}
+      \end{cvitems}
+    }
+\cventry
+    {PhD Candidate} % Job title
+    {Thales Research and Technology} % Organization
+    {Palaiseau, France} % Location
+    {Dec. 2012 - Dec. 2016} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {some stuff}
+      \end{cvitems}
+    }
+\end{cventries}
+
+
+% =================================================================================================================================================================================================================================
+\begin{cventries}%
+\cvsection{Academic}{Experience}%
+\cventry
+    {} % Job title
+    {Teaching} % Organization
+    {} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {some stuff}
+    \end{cvitems}
+    }
+
+  \cventry
+    {} % Job title
+    {Mentoring} % Organization
+    {} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {some stuff}
+        \item {some stuff}
+        \item {some stuff}
       \end{cvitems}
     }
 %---------------------------------------------------------
 \end{cventries}
 
-\input{cv/experience.tex}
-\input{cv/skills.tex}
-% \input{cv/extracurricular.tex}
-% \input{cv/honors.tex}
-% \input{cv/presentation.tex}
-% \input{cv/writing.tex}
-% \input{cv/committees.tex}
+% =================================================================================================================================================================================================================================
+\begin{cventries}%
+\cvsection{Selected}{Publications}%
+\cventry
+    {} % Job title
+    {Articles} % Organization
+    {} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {some stuff}
+        \item {some stuff}
+    \end{cvitems}
+    }
+    
 
+%
+%---------------------------------------------------------
+  \cventry
+    {} % Job title
+    {Conferences} % Organization
+    {} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {some sutff}
+        \item {some stuff}
+        \item {some stuff}
+      \end{cvitems}
+    }
+%---------------------------------------------------------
+\end{cventries}
+
+
+\begin{cventries}
+\cvsection{Skills}{Summary}
+    \cvskills{
+        \cvskillentry{Work}{
+            \cvskill{Modeling}{4.5}
+            \cvskill{Nanofab.}{3.5}
+            \cvskill{Measurement}{4}
+            % \cvskill{}{3.5}
+        }%
+        \cvskillentry{Languages}{
+            \cvskill{English}{5}
+            \cvskill{French}{5}
+            \cvskill{Italian}{3}
+            \cvskill{Russian}{2}
+        }%
+        \cvskillentry{Programming}{
+            \cvskill{Python}{5}
+            \cvskill{Matlab}{5}
+            \cvskill{Julia}{4}
+            \cvskill{Java}{3}
+        }%
+        \cvskillentry{Hobby}{
+            \cvskill{Ski}{4}
+            \cvskill{Golf}{3}
+            \cvskill{Hiking}{3}
+            \cvskill{Cooking}{4}
+        }
+    }
+\end{cventries}
+
+% \input{cv/skills.tex}
+
+\clearpage
+
+\begin{cventries}
+\cvsection{}{}
+\end{cventries}
+
+\section*{Complete list of publications}
+
+\begin{cventries}
+\cvsection{Journal}{Article}
+\end{cventries}
+
+
+
+\begin{cventries}
+\cvsection{Book}{Chapters}
+\end{cventries}
+
+\begin{cventries}
+\cvsection{Conference}{Proceedings}
+\end{cventries}
 
 %-------------------------------------------------------------------------------
 \end{document}
