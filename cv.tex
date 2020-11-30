@@ -27,20 +27,8 @@
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
 \colorlet{awesome}{orangepantone}
-% Uncomment if you would like to specify your own color
-% \definecolor{awesome}{HTML}{CA63A8}
-
-% Colors for text
-% Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
-
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
-
-% If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
 
@@ -102,31 +90,41 @@
 \begin{cventries}%
 \cvsection{Education}{}%
 \cventry%
-    {M.S. Physics} % Degree
+    {Ph.D.} % Degree
+    {Paris Saclay University} % Institution
+    {Paris, France} % Location
+    {2012 - 2016} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {Physics -- \textit{Non-Linear Dynamics in Semiconductors Nanostructures for Signal Processing}}
+      \end{cvitems}
+      }    
+\cventry%
+    {M.S.} % Degree
     {Grenoble INP - Phelma } % Institution
     {Grenoble, France} % Location
-    {Sep. 2007 - Aug. 2012} % Date(s)
+    {2009 - 2012} % Date(s)
     {
       \begin{cvitems} % Description(s) bullet points
-        \item {some stuff}
+        \item {Physics \& Photonics}
       \end{cvitems}
-    }
+      }
 \cventry%
-    {Ph.D. Physics} % Degree
-    {University Paris Saclay} % Institution
-    {Paris, France} % Location
-    {Dec. 2012 - July 2016} % Date(s)
+    {B.S. Physics} % Degree
+    {Joseph Fourier University} % Institution
+    {Grenoble, France} % Location
+    {2007 - 209} % Date(s)
     {
       \begin{cvitems} % Description(s) bullet points
-        \item {some sutff}
+        \item {Physics}
       \end{cvitems}
-    }
+      }
+      \end{cventries}
 \end{cventries}
-
 
 % =================================================================================================================================================================================================================================
 \begin{cventries}%
-\cvsection{Experience}{}%
+\cvsection{Research}{Experiences}%
 \cventry
     {Postdoctoral Associate} % Job title
     {University of Maryland - National Institure of Standards and Technology} % Organization
@@ -134,7 +132,9 @@
     {Feb. 2017 - present} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {some stuff}
+        \item {Study of chip-scale integrated micro-resonators made of Silicon Nitride for frequency comb applications.}
+        \item{Study of novel dispersion design through geometrical tailoring}
+        \item{These researches involves modelling through in-house devloepd software (python, java, julia, matlab) and proprietary softwares, fabrication in cleanroom (ebeam lithography, ICP dry etch, chemistry), and experiment}
       \end{cvitems}
     }
 \cventry
@@ -144,7 +144,9 @@
     {Dec. 2012 - Dec. 2016} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {some stuff}
+        \item {Study of carrier dynamics and its effects on the optical modes in III-V photonic crystal cavities for all-optical
+        and electro-optical signal processing.}
+        \item {I theoretically studied the devices through in-house developed numerical solver, processed them in clean-room, and characterized them with setup developed during this Ph.D.}
       \end{cvitems}
     }
 \end{cventries}
@@ -176,10 +178,8 @@
         \item {some stuff}
       \end{cvitems}
     }
-%---------------------------------------------------------
 \end{cventries}
 
-% =================================================================================================================================================================================================================================
 \begin{cventries}%
 \cvsection{Selected}{Publications}%
 \cventry
@@ -212,34 +212,37 @@
 %---------------------------------------------------------
 \end{cventries}
 
+\begin{cventries}
+\cvsection{Service to}{Community}
+\end{cventries}
 
 \begin{cventries}
 \cvsection{Skills}{Summary}
     \cvskills{
-        \cvskillentry{Work}{
-            \cvskill{Modeling}{4.5}
-            \cvskill{Nanofab.}{3.5}
-            \cvskill{Measurement}{4}
-            % \cvskill{}{3.5}
+        \cvskillentry{Experiemtal Skills}{
+            \cvskill{Photonics Charac.}{4.5}
+            \cvskill{Non-Linear Optics}{4}
+            \cvskill{Radio Freq.}{4}
+            \cvskill{Metrology}{3}
         }%
-        \cvskillentry{Languages}{
-            \cvskill{English}{5}
-            \cvskill{French}{5}
-            \cvskill{Italian}{3}
-            \cvskill{Russian}{2}
-        }%
+        \cvskillentry{NanoFab}{
+            \cvskill{Design Layout}{4}    
+            \cvskill{Electron Beam Lithorgraphy}{4}        
+            \cvskill{Dy Etching}{4}
+            \cvskill{Wet Etching}{4}
+            }%
         \cvskillentry{Programming}{
             \cvskill{Python}{5}
             \cvskill{Matlab}{5}
             \cvskill{Julia}{4}
             \cvskill{Java}{3}
         }%
-        \cvskillentry{Hobby}{
-            \cvskill{Ski}{4}
-            \cvskill{Golf}{3}
-            \cvskill{Hiking}{3}
-            \cvskill{Cooking}{4}
-        }
+        \cvskillentry{Languages}{
+            \cvskill{English}{5}
+            \cvskill{French}{5}
+            \cvskill{Italian}{3}
+            \cvskill{Russian}{2}
+            }%
     }
 \end{cventries}
 
@@ -256,8 +259,6 @@
 \begin{cventries}
 \cvsection{Journal}{Article}
 \end{cventries}
-
-
 
 \begin{cventries}
 \cvsection{Book}{Chapters}
