@@ -15,11 +15,13 @@
 \github{gregmoille}
 \googlescholar{fBdsmYAAAAJ&hl}{Google Scholar}
 %\researchsummary{}
-
-\bibliography{MyPapers.bib}
+\usepackage[style=numeric]{biblatex}
+\addbibresource{MyPapers.bib}
+\bibliography{MyPapers}
 
 %-------------------------------------------------------------------------------
 \begin{document}
+
 \makecvheader
 \makecvfooter
   {\today}
@@ -187,14 +189,11 @@
 
 \begin{cventries}
 \cvsection{Journal}{Article}
+\printbibliography
 \end{cventries}
 
 \begin{cventries}
 \cvsection{Book}{Chapters}
-
-\printbibliography[heading=subbibliography,
-                   title={Articles},
-                   type=article]
 
 \end{cventries}
 
