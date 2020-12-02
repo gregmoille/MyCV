@@ -83,6 +83,8 @@
 \RequirePackage{environ}
 % Needed to deal hyperlink
 \RequirePackage{xargs}
+\RequirePackage{makecell}
+\RequirePackage{tabularx,booktabs,ragged2e}
 \RequirePackage[hidelinks,unicode]{hyperref}
 \hypersetup{%
   pdftitle={},
@@ -90,7 +92,7 @@
   pdfsubject={},
   pdfkeywords={}
 }
-\RequirePackage{tabularx}
+% \RequirePackage{tabularx}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
@@ -342,8 +344,10 @@
 %-------------------------------------------------------------------------------
 %                Commands for elements of CV structure
 %-------------------------------------------------------------------------------
-% Define a header for CV
-% Usage: \makecvheader
+
+\renewcommand{\arraystretch}{0.75}
+%  === HEADER =====
+% ================================
 \newlength{\tablemargin}
 \setlength{\tablemargin}{10pt}
 \setlength{\tabcolsep}{\tablemargin}
@@ -383,12 +387,12 @@
             \end{minipage}
         }
     \end{tabular}
-    
+    \vskip -2ex
     \hspace{\tablemargin}\rule{\addresslength}{0.25pt}
 }
 
-% Define a footer for CV
-% Usage: \makecvfooter{<left>}{<center>}{<right>}
+%  === FOOTER =====
+% ================================
 \newcommand*{\makecvfooter}[3]{%
   \fancyfoot{}
   \fancyfoot[L]{\footerstyle{#1}}
@@ -396,128 +400,89 @@
   \fancyfoot[R]{\footerstyle{#3}}
 }
 
-% Define a subsection for CV
-% Usage: \cvsubsection{<subsection-title>}
+%  === SECTIONS =====
+% ================================
+\newcommand{\cvsectiontitle}[2]{%
+    \sectionstyle{#1}%
+}
+\newcommand{\cvsection}[2]{%
+    \ifempty{#2}{%
+        \sectionstyle{#1}%
+    }{\sectionstyle{#1} 
+      \sectionstyle{#2}
+    }
+}
 \newcommand{\cvsubsection}[1]{%
   \vspace{\acvSectionContentTopSkip}%
   \vspace{-3mm}%
   \subsectionstyle{#1}%
-%   \phantomsection
 }
 
-% Define a paragraph for CV
+%  === PARAGRAPH =====
+% ================================
 \newenvironment{cvparagraph}{%
       \null
           \paragraphstyle
         }{%
 \par%
-\vspace{2mm}%
+% \vspace{2mm}%
 }
-
-% Define an environment for cventry
+\def\arraystretch{0.45}
+%  === CV Entries =====
+% ================================
 \newenvironment{cventries}{%
-      \begin{tabular}[t]{m{1.7cm} m{\textwidth-1.7cm}}
+      \begin{tabular}[t]{|>{\raggedright}p{2.1cm}@{\hskip0pt}  |p{\textwidth-2.1cm}|}
     }{%
       \end{tabular}
 }
 
-% Define a section for CV
-% Usage: \cvsection{<section-title>}
-\newcommand{\cvsection}[2]{%
-    \begin{minipage}[t]{1.7cm}%
-        \vspace{-1.35ex}%
-        \sectionstyle{#1}%
-        \ifempty{#2}{}{\\\sectionstyle{#2}\null}
-    \end{minipage}%
-}
-
-
-% Define an entry of cv information
-% Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
 &\hspace{-\tablemargin}%
-    % \imagetop{%
-    \begin{tabular}[t]{m{\textwidth - 3.5cm -2.5cm } m{2.5cm}}%
+\begin{tabular}[t]{p{\textwidth - 2cm - 3cm } p{3.1cm} }%
     \ifempty{#1}{\entrytitlestyle{#2}\\}{
-        \ifempty{#2#3}
+        \ifempty{#2#3}%
           {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
           {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
           \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-          }
-    \multicolumn{2}{L{\textwidth-2.5cm-0.25cm}}{\descriptionstyle{#5}}\hfill
-        
+          }\\
+    \multicolumn{2}{L{\textwidth-2.1cm-0.25cm}}{\descriptionstyle{#5}}\hfill
   \end{tabular}%
-%   }%
   \\
-%   \hrule
-  
 }
 
-
-% Define an environment for cvsubentry
-\newenvironment{cvsubentries}{%
-  \begin{center}
-}{%
-  \end{center}
-}
-% Define a subentry of cv information
-% Usage: \cvsubentry{<position>}{<title>}{<date>}{<description>}
-\newcommand*{\cvsubentry}[4]{%
-  \setlength\tabcolsep{0pt}
-  \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
-    \setlength\leftskip{0.2cm}
-    \subentrytitlestyle{#2} & \ifthenelse{\equal{#1}{}}
-      {\subentrydatestyle{#3}}{}
-    \ifthenelse{\equal{#1}{}}
-      {}
-      {\subentrypositionstyle{#1} & \subentrydatestyle{#3} \\}
-    \ifthenelse{\equal{#4}{}}
-      {}
-      {\multicolumn{2}{L{17.0cm}}{\subdescriptionstyle{#4}} \\}
-  \end{tabular*}
-}
-
-% Define an environment for cvhonor
-\newenvironment{cvhonors}{%
-  \vspace{\acvSectionContentTopSkip}
-  \vspace{-2mm}
-  \begin{center}
-    \setlength\tabcolsep{0pt}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.5cm} L{\textwidth - 4.0cm} R{2.5cm}}
-}{%
-    \end{tabular*}
-  \end{center}
-}
-% Define a line of cv information(honor, award or something else)
-% Usage: \cvhonor{<position>}{<title>}{<location>}{<date>}
-\newcommand*{\cvhonor}[4]{%
-  \honordatestyle{#4} & \honorpositionstyle{#1}, \honortitlestyle{#2} & \honorlocationstyle{#3} \\
-}
-
-% Define an environment for cvskill
-\newcommand*{\cvskills}[1]{%
-    &\hspace{-\tablemargin}#1
+% === Education =====
+% ================================
+\newcommand*{\cveducations}[1]{%
+     &\hspace{-\tablemargin}#1
     }
-
-\newcommand*{\cvskillentry}[2]{%
-% &\hspace{-\tablemargin}%
-    \begin{tabular}[t]{l@{\hskip3pt} @{\hskip3pt}l@{\hskip3pt}}%
+\newcommand*{\cveducation}[4]{%
+    \begin{tabular}[t]{|l@{\hskip3pt} | @{\hskip3pt}l@{\hskip3pt} | }%
         \multicolumn{2}{l}{\entrytitlestyle{#1}}\\
-        #2
+        % \entrypositionstyle{#2}
+    \end{tabular}\hfill
+}
+% === SKILLS =====
+% ================================
+\newcommand*{\cvskills}[1]{%
+    &\hspace{-\tablemargin}\vspace{-1.37ex}%
+    
+    #1
+}
+\newcommand*{\cvskillentry}[2]{%
+    \begin{tabular}[t]{@{\hskip0pt}l@{\hskip0pt}}%
+        \entrytitlestyle{#1}\\
+        \vspace{-0.5ex}
+        \\
+        \begin{tabular}[t]{@{\hskip0pt}l@{\hskip5pt} @{\hskip0pt}p{3.4em}@{\hskip0pt}}
+            #2
+        \end{tabular}
   \end{tabular}\hfill
 }
 
-% Define a line of cv information(skill)
-% Usage: \cvskill{<type>}{<skillset>}
-\newcommand*{\cvskill}[2]{%
-    % \begin{tabular}[t]{|m{\textwidth}||m{0.1\textwidth}||m{0.1\textwidth}}
-    \descriptionstyle{#1}&\grade{#2} \\
-    % \end{tabulars}
+\newcommand*{\cvskill}[2]{
+    \descriptionstyle{#1} & \grade{#2} \\
 }
-
-\newcommand{\grade}[1]{%
+\newcommand*{\grade}[1]{%
     \begin{tikzpicture}
     \clip (1*0.66em-.3em,-.3em) rectangle (5*0.66em +.5em ,.3em);
     \foreach \x in {1,2,...,5}{
@@ -529,7 +494,6 @@
         \path[{fill=awesome}] (\x*0.66 em,0) circle (.175em);
     }
     \end{scope}
-
     \end{tikzpicture}%
 }
 % Define an environment for cvitems(for cventry)
@@ -546,53 +510,3 @@
 }
 
 
-%-------------------------------------------------------------------------------
-%                Commands for elements of Cover Letter
-%-------------------------------------------------------------------------------
-% Define an environment for cvletter
-\newenvironment{cvletter}{%
-  \lettertextstyle
-}{%
-}
-
-% Define a section for the cover letter
-% Usage: \lettersection{<section-title>}
-\newcommand{\lettersection}[1]{%
-  \par\addvspace{2.5ex}
-  \phantomsection{}
-  \lettersectionstyle{#1}
-  \color{gray}\vhrulefill{0.9pt}
-  \par\nobreak\addvspace{0.4ex}
-}
-
-% Define a title of the cover letter
-% Usage: \makelettertitle
-\newcommand*{\makelettertitle}{%
-  \vspace{8.4mm}
-  \setlength\tabcolsep{0pt}
-  \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
-    \recipienttitlestyle{\@recipientname} & \letterdatestyle{\@letterdate}
-  \end{tabular*}
-  \begin{singlespace}
-    \recipientaddressstyle{\@recipientaddress} \\\\
-  \end{singlespace}
-  \ifthenelse{\isundefined{\@lettertitle}}
-    {}
-    {\lettertitlestyle{\@lettertitle} \\}
-  \lettertextstyle{\@letteropening}
-}
-
-% Define a closing of the cover letter
-% Usage: \makeletterclosing
-\newcommand*{\makeletterclosing}{%
-  \vspace{3.4mm}
-  \lettertextstyle{\@letterclosing} \\\\
-  \letternamestyle{\@firstname\ \@lastname}
-  \ifthenelse{\isundefined{\@letterenclosure}}
-    {\\}
-    {%
-      \\\\\\
-      \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
-    }
-}

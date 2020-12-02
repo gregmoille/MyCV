@@ -1,131 +1,59 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template for CV/Resume
-%
-% This template has been downloaded from:
-% https://github.com/posquit0/Awesome-CV
-%
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-%
 
-
-%-------------------------------------------------------------------------------
-% CONFIGURATIONS
-%-------------------------------------------------------------------------------
-% A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, letterpaper]{awesome-cv}
-
-% Configure page margins with geometry
 \geometry{left=1cm, top=.8cm, right=2cm, bottom=1.8cm, footskip=.5cm}
-
-% Specify the location of the included fonts
 \fontdir[fonts/]
-
-% Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
 \colorlet{awesome}{orangepantone}
-% Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
-\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-
-%-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
-%-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo{./examples/profile.png}
+% == HEADER ==
 \name{Gregory}{Moille}
-%\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
 \address{3040 Idaho Ave NW, Apt 423\\Washington, DC, 20016 - U.S.A}
-
 \mobile{(+1)202-320-0113}
 \email{gmoille@umd.edu}
-% \homepage{www.posquit0.com}
 \github{gregmoille}
-% \linkedin{posquit0}
-% \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
 \googlescholar{fBdsmYAAAAJ&hl}{Google Scholar}
-%% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
-% \extrainfo{extra informations}
-
-% \quote{``Be the change that you want to see in the world."}
+\researchsummary{}
 
 
 %-------------------------------------------------------------------------------
 \begin{document}
-
-% Print the header with above personal informations
-% Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader
-
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
   {Gregory Moille~~~·~~~Curriculum Vitae}
   {\thepage}
 
+% == EDUCATION ==
+% =================================================
+% \begin{cventries}%
+%     \cvsection{Education}{test}%
+%     \cveducations{%
+%         \cveducation%
+%             {Ph.D.} % Degree
+%             {Paris Saclay University} % Institution
+%             {Paris, France} % Location
+%             {2012 - 2016} % Date(s)
+%             \vspace{-4ex}%
+%         \cveducation%
+%             {M.S.}
+%             {Grenoble INP - Phelma }
+%             {Grenoble, France}
+%             {2009 - 2012}%
+%         \cveducation%
+%             {B.S. Physics}
+%             {Joseph Fourier University}
+%             {Grenoble, France}
+%             {2007 - 209}%
+%     }
+% \end{cventries}
 
-%-------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
-%	Each section is imported separately, open each file in turn to modify content
-%-------------------------------------------------------------------------------
-%-------------------------------------------------------------------------------
-%	SECTION TITLE
-%-------------------------------------------------------------------------------
-
-%-------------------------------------------------------------------------------
-%	CONTENT
-%-------------------------------------------------------------------------------
+% == Research Experiences ==
+% =================================================
 \begin{cventries}%
-\cvsection{Education}{}%
-\cventry%
-    {Ph.D.} % Degree
-    {Paris Saclay University} % Institution
-    {Paris, France} % Location
-    {2012 - 2016} % Date(s)
-    {
-      \begin{cvitems} % Description(s) bullet points
-        \item {Physics -- \textit{Non-Linear Dynamics in Semiconductors Nanostructures for Signal Processing}}
-      \end{cvitems}
-      }    
-\cventry%
-    {M.S.} % Degree
-    {Grenoble INP - Phelma } % Institution
-    {Grenoble, France} % Location
-    {2009 - 2012} % Date(s)
-    {
-      \begin{cvitems} % Description(s) bullet points
-        \item {Physics \& Photonics}
-      \end{cvitems}
-      }
-\cventry%
-    {B.S. Physics} % Degree
-    {Joseph Fourier University} % Institution
-    {Grenoble, France} % Location
-    {2007 - 209} % Date(s)
-    {
-      \begin{cvitems} % Description(s) bullet points
-        \item {Physics}
-      \end{cvitems}
-      }
-      \end{cventries}
-\end{cventries}
-
-% =================================================================================================================================================================================================================================
-\begin{cventries}%
-\cvsection{Research}{Experiences}%
-\cventry
+    \cvsection{Research}{Experiences}%
+    \cventry%
     {Postdoctoral Associate} % Job title
     {University of Maryland - National Institure of Standards and Technology} % Organization
     {Maryland, USA} % Location
@@ -137,7 +65,7 @@
         \item{These researches involves modelling through in-house devloepd software (python, java, julia, matlab) and proprietary softwares, fabrication in cleanroom (ebeam lithography, ICP dry etch, chemistry), and experiment}
       \end{cvitems}
     }
-\cventry
+    \cventry
     {PhD Candidate} % Job title
     {Thales Research and Technology} % Organization
     {Palaiseau, France} % Location
@@ -217,9 +145,9 @@
 \end{cventries}
 
 \begin{cventries}
-\cvsection{Skills}{Summary}
-    \cvskills{
-        \cvskillentry{Experiemtal Skills}{
+\cvsection{Skills}{Summary}%
+    \cvskills{%
+        \cvskillentry{Experimental Skills}{%
             \cvskill{Photonics Charac.}{4.5}
             \cvskill{Non-Linear Optics}{4}
             \cvskill{Radio Freq.}{4}
@@ -227,7 +155,7 @@
         }%
         \cvskillentry{NanoFab}{
             \cvskill{Design Layout}{4}    
-            \cvskill{Electron Beam Lithorgraphy}{4}        
+            \cvskill{EBL}{4}        
             \cvskill{Dy Etching}{4}
             \cvskill{Wet Etching}{4}
             }%
