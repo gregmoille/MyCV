@@ -2,8 +2,10 @@
 %!TEX encoding = UTF-8 Unicode
 
 \documentclass[11pt, letterpaper]{awesome-cv}
+\usepackage{fontspec}
+\usepackage{fontawesome}
 \geometry{left=1cm, top=.8cm, right=2cm, bottom=1.8cm, footskip=.5cm}
-\fontdir[fonts/]
+
 \colorlet{awesome}{orangepantone}
 \setbool{acvSectionColorHighlight}{true}
 
@@ -15,11 +17,23 @@
 \github{gregmoille}
 \googlescholar{fBdsmYAAAAJ&hl}{Google Scholar}
 %\researchsummary{}
-\usepackage[style=numeric]{biblatex}
+\usepackage[backref=true,                %
+            hyperref=true,               %
+            firstinits=true,             %
+            indexing=true,               %
+            url=false,                   %
+            style=alphabetic,            %  style=debug, alphabetic
+            backend=biber,               %
+            doi=false,
+            texencoding=utf8,
+            bibencoding=utf8]{biblatex}
 \addbibresource{MyPapers.bib}
-\bibliography{MyPapers}
+% \bibliography{MyPapers}
 
 %-------------------------------------------------------------------------------
+
+% \defaultfontfeatures{Path = ./fonts/]}
+% \fontdir[fonts/]
 \begin{document}
 
 \makecvheader
@@ -124,7 +138,7 @@
         \item {some stuff}
     \end{cvitems}
     }
-    
+
 
 %
 %---------------------------------------------------------
@@ -157,8 +171,8 @@
             \cvskill{Metrology}{3}
         }%
         \cvskillentry{NanoFab}{
-            \cvskill{Design Layout}{4}    
-            \cvskill{EBL}{4}        
+            \cvskill{Design Layout}{4}
+            \cvskill{EBL}{4}
             \cvskill{Dy Etching}{4}
             \cvskill{Wet Etching}{4}
             }%
@@ -180,7 +194,7 @@
 % \input{cv/skills.tex}
 
 \clearpage
-
+\nocite{*} 
 \begin{cventries}
 \cvsection{}{}
 \end{cventries}

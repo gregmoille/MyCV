@@ -1,0 +1,3736 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{black2020optical}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=a6f5663e1470486fc5ed8b84aa0146d8}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Jennifer\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=64f3bb8a9ba38c43c297e7223f67a32c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Su-Peng},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=6334683a18617726f87eb9b9f55dc340}{%
+           family={Streater},
+           familyi={S\bibinitperiod},
+           given={Richelle},
+           giveni={R\bibinitperiod}}}%
+        {{hash=09783e71bb66d26a916090de0500bb81}{%
+           family={Stone},
+           familyi={S\bibinitperiod},
+           given={Jordan\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7929f547a29cedfe6289aec5a2db2b5b}
+      \strng{fullhash}{04c75bf6e11d84d21c6d4c927d28dfbc}
+      \strng{bibnamehash}{7929f547a29cedfe6289aec5a2db2b5b}
+      \strng{authorbibnamehash}{7929f547a29cedfe6289aec5a2db2b5b}
+      \strng{authornamehash}{7929f547a29cedfe6289aec5a2db2b5b}
+      \strng{authorfullhash}{04c75bf6e11d84d21c6d4c927d28dfbc}
+      \field{labelalpha}{Bla+20}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 Conference on Lasers and Electro-Optics (CLEO)}
+      \field{title}{Optical synthesis by spectral translation}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{bourderionnet2016silicon}{inproceedings}{}
+      \name{author}{10}{}{%
+        {{hash=bcbf32b14091f2c7c8934584e87d60e8}{%
+           family={Bourderionnet},
+           familyi={B\bibinitperiod},
+           given={J{\’e}r{ô}me},
+           giveni={J\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b0a35533fefd89b028a5e08fbadd6201}{%
+           family={Checoury},
+           familyi={C\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=af68519cb630127230b40105beffef68}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=69eeb6b4158aad405773092e4e4bf415}{%
+           family={Gay},
+           familyi={G\bibinitperiod},
+           given={Mathilde},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8e44c3abcf6057c19a8eb6c498d40093}{%
+           family={Bramerie},
+           familyi={B\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f6baf51781ed5a64d725efcd62406cbc}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Jean-Claude},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=7ee30bacb10eeb5d34c6bb32bebea782}{%
+           family={Peucheret},
+           familyi={P\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{de225a43d8c4ffd7f7ec9daa3fac1158}
+      \strng{fullhash}{e4bb0d98bcfe1349d2ad3e6193fd2476}
+      \strng{bibnamehash}{de225a43d8c4ffd7f7ec9daa3fac1158}
+      \strng{authorbibnamehash}{de225a43d8c4ffd7f7ec9daa3fac1158}
+      \strng{authornamehash}{de225a43d8c4ffd7f7ec9daa3fac1158}
+      \strng{authorfullhash}{e4bb0d98bcfe1349d2ad3e6193fd2476}
+      \field{labelalpha}{Bou+16}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE Photonics Conference (IPC)}
+      \field{title}{Silicon-on-Insulator photonic crystal multi-tap microwave photonics filter}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{281\bibrangedash 282}
+      \range{pages}{2}
+    \endentry
+    \entry{bowers2019chip}{report}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=0a407d58d2b9e75f3189b3f745b36d87}{%
+           family={Bowers},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8d97221fbcf755db02b994d07704dd7c}{%
+           family={Beling},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9f6efbda411958b7e52d0ec3d2a79aca}{%
+           family={Bowers},
+           familyi={B\bibinitperiod},
+           given={Steven\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=dbbb281c09c591cd1cfcc110186db14d}{%
+           family={Briles},
+           familyi={B\bibinitperiod},
+           given={Travis\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=65498ffa80651d6965de6324cf6f1631}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4c58d96d23c44af6427419a6f064820c}{%
+           family={Chiles},
+           familyi={C\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9b9d297ed5584d3a7c485ca7a99a626b}{%
+           family={Costanzo},
+           familyi={C\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=afe7ec2368e61de5aed64c6b387461d9}{%
+           family={Davanco},
+           familyi={D\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=315fd2fe29daeeb754053bfce4ff685e}{%
+           family={Diddams},
+           familyi={D\bibinitperiod},
+           given={Scott\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f156d9e6dad1a69af374c50e1069f567}{%
+           family={Drake},
+           familyi={D\bibinitperiod},
+           given={Tara\bibnamedelima E},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {NIST Gaithersburg United States}%
+      }
+      \strng{namehash}{aacf17cd6e5f6e90512780fb9a12d394}
+      \strng{fullhash}{b7281b5d3e2ba17ab7602734e1b6c313}
+      \strng{bibnamehash}{aacf17cd6e5f6e90512780fb9a12d394}
+      \strng{authorbibnamehash}{aacf17cd6e5f6e90512780fb9a12d394}
+      \strng{authornamehash}{aacf17cd6e5f6e90512780fb9a12d394}
+      \strng{authorfullhash}{b7281b5d3e2ba17ab7602734e1b6c313}
+      \field{labelalpha}{Bow+19}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Chip-scale optical resonator enabled synthesizer (CORES)}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{briles2019generation}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=dbbb281c09c591cd1cfcc110186db14d}{%
+           family={Briles},
+           familyi={B\bibinitperiod},
+           given={Travis\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=09783e71bb66d26a916090de0500bb81}{%
+           family={Stone},
+           familyi={S\bibinitperiod},
+           given={Jordan\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=65498ffa80651d6965de6324cf6f1631}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=67e6adad9a1f6a53069ed2126ddbdd25}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=88736705901e36db491346d01bb54378}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0a407d58d2b9e75f3189b3f745b36d87}{%
+           family={Bowers},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{be8472a7b667e0e70a916f15bb43f5a7}
+      \strng{fullhash}{e66c4669e64750a7b2499d51aed88525}
+      \strng{bibnamehash}{be8472a7b667e0e70a916f15bb43f5a7}
+      \strng{authorbibnamehash}{be8472a7b667e0e70a916f15bb43f5a7}
+      \strng{authornamehash}{be8472a7b667e0e70a916f15bb43f5a7}
+      \strng{authorfullhash}{e66c4669e64750a7b2499d51aed88525}
+      \field{extraname}{1}
+      \field{labelalpha}{Bri+19}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 IEEE Avionics and Vehicle Fiber-Optics and Photonics Conference (AVFOP)}
+      \field{title}{Generation of Octave-Spanning Microresonator Solitons with a Self Injection-Locked DFB Laser}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{briles2020semiconductor}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=f6dea243d95e4d6ff8d99025015a712a}{%
+           family={Briles},
+           familyi={B\bibinitperiod},
+           given={TC},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c76b6675a752d46ac98cd049f7d728dc}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ba2bad94a73f724da6137f4c177a7573}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=28f6068ba57e60c5e27fc2490a8e1ffd}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f70d84f2790adf6cdfc4b9cca17c8f0b}{%
+           family={Kinghorn},
+           familyi={K\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bc362bf88dc64ee2a9f77444e93463b3}{%
+           family={Stone},
+           familyi={S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=238d377a23890d8bd96508637b4a1664}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7dbac75ad841dd417cbef573ad75c0eb}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9984ee177fcae60b7dd649e965a9706b}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=83bd5e5841d9c8b659fdb31002df9c56}{%
+           family={Bowers},
+           familyi={B\bibinitperiod},
+           given={JE},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{99e0c05b3bb0d58203c5771adb5f4276}
+      \strng{fullhash}{4540c25e6cb0ca3503dc251701d35f3b}
+      \strng{bibnamehash}{99e0c05b3bb0d58203c5771adb5f4276}
+      \strng{authorbibnamehash}{99e0c05b3bb0d58203c5771adb5f4276}
+      \strng{authornamehash}{99e0c05b3bb0d58203c5771adb5f4276}
+      \strng{authorfullhash}{4540c25e6cb0ca3503dc251701d35f3b}
+      \field{extraname}{2}
+      \field{labelalpha}{Bri+20}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 Conference on Lasers and Electro-Optics (CLEO)}
+      \field{title}{Semiconductor laser integration for octave-span Kerr-soliton frequency combs}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{chang2020ultra}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=65498ffa80651d6965de6324cf6f1631}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9e3682e6a2c2e353207d15ad2f865902}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Weiqiang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=637e6d0374463ca418cdae9715848c29}{%
+           family={Shu},
+           familyi={S\bibinitperiod},
+           given={Haowen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=699c91002e6167824d50603a230f1263}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Qi-Fan},
+           giveni={Q\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=7a4f4a0e897ae9cbdad226d4dd986404}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Boqiang},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0f4f236de4075e0736cd9bb4ad7dca31}{%
+           family={Boes},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bd0aec42c39d3adead9d4269d98f4108}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Jon\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8361bdaf676e317def2d318c41002067}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Warren},
+           giveni={W\bibinitperiod}}}%
+        {{hash=67e6adad9a1f6a53069ed2126ddbdd25}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=39ed21ebc0d8b4507bc9e019eb9868d8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Songtao},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{4963546e483c975c7c2794750a643224}
+      \strng{fullhash}{6b1b74aa1979aaba5c1b4e4cf681e307}
+      \strng{bibnamehash}{4963546e483c975c7c2794750a643224}
+      \strng{authorbibnamehash}{4963546e483c975c7c2794750a643224}
+      \strng{authornamehash}{4963546e483c975c7c2794750a643224}
+      \strng{authorfullhash}{6b1b74aa1979aaba5c1b4e4cf681e307}
+      \field{labelalpha}{Cha+20}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature communications}
+      \field{number}{1}
+      \field{title}{Ultra-efficient frequency comb generation in AlGaAs-on-insulator microresonators}
+      \field{volume}{11}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+    \endentry
+    \entry{colman2020nonlinear}{incollection}{}
+      \name{author}{5}{}{%
+        {{hash=08ea755964a64131df546ff757efcac4}{%
+           family={Colman},
+           familyi={C\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=556cc9727d88e5f6ffd65e5c9c50ee66}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9c3fe4cfc34b70a23b27d1ad1e5b6ea5}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eaea332f7b08db00433a4d09ca9ff7c7}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7dbac75ad841dd417cbef573ad75c0eb}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{03e35ff8771d75fe43607941dc3df07b}
+      \strng{fullhash}{a68418b2a03741610f3f5d69054ec698}
+      \strng{bibnamehash}{03e35ff8771d75fe43607941dc3df07b}
+      \strng{authorbibnamehash}{03e35ff8771d75fe43607941dc3df07b}
+      \strng{authornamehash}{03e35ff8771d75fe43607941dc3df07b}
+      \strng{authorfullhash}{a68418b2a03741610f3f5d69054ec698}
+      \field{labelalpha}{Col+20}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Nonlinear Meta-Optics}
+      \field{title}{Nonlinear Photonic Crystals}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{199\bibrangedash 250}
+      \range{pages}{52}
+    \endentry
+    \entry{combrie2014efficient}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=016bbb2a77f8568064c4d9e150ddfa67}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Aude},
+           giveni={A\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cece306bd684e260954dc4e3f0624aa0}{%
+           family={Reithmaier},
+           familyi={R\bibinitperiod},
+           given={J-P},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=8e44c3abcf6057c19a8eb6c498d40093}{%
+           family={Bramerie},
+           familyi={B\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+        {{hash=69eeb6b4158aad405773092e4e4bf415}{%
+           family={Gay},
+           familyi={G\bibinitperiod},
+           given={Mathilde},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{fullhash}{a45a4a659af9ff094675c6c11be4a0a0}
+      \strng{bibnamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authorbibnamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authornamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authorfullhash}{a45a4a659af9ff094675c6c11be4a0a0}
+      \field{extraname}{1}
+      \field{labelalpha}{Com+14}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 16th International Conference on Transparent Optical Networks (ICTON)}
+      \field{title}{An efficient all-optical gate based on photonic crystals cavities and applications}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+    \endentry
+    \entry{combrie2017comb}{article}{}
+      \name{author}{5}{}{%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7646da650a3f6a8f5cb7164cf223044b}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gr{\’e}gory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=016bbb2a77f8568064c4d9e150ddfa67}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Aude},
+           giveni={A\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{fullhash}{831bb188670c9f1ba350f3373ac7c7c6}
+      \strng{bibnamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authorbibnamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authornamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authorfullhash}{831bb188670c9f1ba350f3373ac7c7c6}
+      \field{extraname}{2}
+      \field{labelalpha}{Com+17}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Laser \& Photonics Reviews}
+      \field{number}{6}
+      \field{title}{Comb of high-Q Resonances in a Compact Photonic Cavity}
+      \field{volume}{11}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{1700099}
+      \range{pages}{1}
+    \endentry
+    \entry{combrie2017compact}{article}{}
+      \name{author}{5}{}{%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=016bbb2a77f8568064c4d9e150ddfa67}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Aude},
+           giveni={A\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{fullhash}{724551602414cd7ff078d993717ead38}
+      \strng{bibnamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authorbibnamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authornamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authorfullhash}{724551602414cd7ff078d993717ead38}
+      \field{extraname}{3}
+      \field{labelalpha}{Com+17}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1704.04267}
+      \field{title}{Compact High-Q Optical Comb based on a Photonic Harmonic Potential}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{combrie2018high}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7646da650a3f6a8f5cb7164cf223044b}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gr{\’e}gory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=016bbb2a77f8568064c4d9e150ddfa67}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Aude},
+           giveni={A\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {International Society for Optics}%
+        {Photonics}%
+      }
+      \strng{namehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{fullhash}{831bb188670c9f1ba350f3373ac7c7c6}
+      \strng{bibnamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authorbibnamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authornamehash}{f56fc1d0d045fdecd803b97b57cf0810}
+      \strng{authorfullhash}{831bb188670c9f1ba350f3373ac7c7c6}
+      \field{extraname}{4}
+      \field{labelalpha}{Com+18}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Quantum Sensing and Nano Electronics and Photonics XV}
+      \field{title}{High-Q optical comb based on a photonic harmonic potential (Conference Presentation)}
+      \field{volume}{10540}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{1054026}
+      \range{pages}{1}
+    \endentry
+    \entry{de2016high}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{45091b97a2f6303f805aaa0fa4b0d620}
+      \strng{fullhash}{45091b97a2f6303f805aaa0fa4b0d620}
+      \strng{bibnamehash}{45091b97a2f6303f805aaa0fa4b0d620}
+      \strng{authorbibnamehash}{45091b97a2f6303f805aaa0fa4b0d620}
+      \strng{authornamehash}{45091b97a2f6303f805aaa0fa4b0d620}
+      \strng{authorfullhash}{45091b97a2f6303f805aaa0fa4b0d620}
+      \field{labelalpha}{De 16}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Frontiers in Optics}
+      \field{title}{High-Q photonic crystal resonators for nonlinear optics}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{FF1F\bibrangedash 1}
+      \range{pages}{-1}
+    \endentry
+    \entry{fowler2013partially}{article}{}
+      \name{author}{9}{}{%
+        {{hash=8fd8691174b0a4e367fa7e6d2c6d9b1e}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Daivid},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bcc4fbe61430bb8c870c70970c0b5226}{%
+           family={Boutami},
+           familyi={B\bibinitperiod},
+           given={Salim},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9bf97f4d7827e5a5d6191f5c3eff96a0}{%
+           family={Duperron},
+           familyi={D\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6f9e7d4007b536f1deda0ef0ebd48a17}{%
+           family={Badano},
+           familyi={B\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a950c96042d0ef9bfc033fb25a5c868f}{%
+           family={Boulard},
+           familyi={B\bibinitperiod},
+           given={Fran{ç}ois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1a5244611a03edb7f5be55bc764d2af1}{%
+           family={Rothman},
+           familyi={R\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=de227e96e5677d7502f65e4008b38cd0}{%
+           family={Gravrand},
+           familyi={G\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{hash=42b7b11458b25bb2622f743d1f937b22}{%
+           family={Lamaestre},
+           familyi={L\bibinitperiod},
+           given={Roch\bibnamedelima Espiau},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{096a3d9ec043b5cf5f84aed6addada33}
+      \strng{fullhash}{2bf50c0e6dc2ee46ad893279a391d22a}
+      \strng{bibnamehash}{096a3d9ec043b5cf5f84aed6addada33}
+      \strng{authorbibnamehash}{096a3d9ec043b5cf5f84aed6addada33}
+      \strng{authornamehash}{096a3d9ec043b5cf5f84aed6addada33}
+      \strng{authorfullhash}{2bf50c0e6dc2ee46ad893279a391d22a}
+      \field{labelalpha}{Fow+13}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics letters}
+      \field{number}{3}
+      \field{title}{Partially localized hybrid surface plasmon mode for thin-film semiconductor infrared photodetection}
+      \field{volume}{38}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{254\bibrangedash 256}
+      \range{pages}{3}
+    \endentry
+    \entry{gay2016silicon}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=69eeb6b4158aad405773092e4e4bf415}{%
+           family={Gay},
+           familyi={G\bibinitperiod},
+           given={Mathilde},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8e44c3abcf6057c19a8eb6c498d40093}{%
+           family={Bramerie},
+           familyi={B\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1fb3af6d888aead70be58ff3a8671912}{%
+           family={Neto},
+           familyi={N\bibinitperiod},
+           given={Luiz\bibnamedelima Anet},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ef84b2bfa28a8a97213745f067802b4b}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Sy\bibnamedelima Dat},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f6baf51781ed5a64d725efcd62406cbc}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Jean-Claude},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=7ee30bacb10eeb5d34c6bb32bebea782}{%
+           family={Peucheret},
+           familyi={P\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+        {{hash=af68519cb630127230b40105beffef68}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b0a35533fefd89b028a5e08fbadd6201}{%
+           family={Checoury},
+           familyi={C\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=7646da650a3f6a8f5cb7164cf223044b}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gr{\’e}gory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bcbf32b14091f2c7c8934584e87d60e8}{%
+           family={Bourderionnet},
+           familyi={B\bibinitperiod},
+           given={J{\’e}r{ô}me},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{09179face74c0fc180c583870c2dcfde}
+      \strng{fullhash}{a4febc2762179a2902d7e152fd8d7692}
+      \strng{bibnamehash}{09179face74c0fc180c583870c2dcfde}
+      \strng{authorbibnamehash}{09179face74c0fc180c583870c2dcfde}
+      \strng{authornamehash}{09179face74c0fc180c583870c2dcfde}
+      \strng{authorfullhash}{a4febc2762179a2902d7e152fd8d7692}
+      \field{labelalpha}{Gay+16}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Photonics Technology Letters}
+      \field{number}{23}
+      \field{title}{Silicon-on-insulator RF filter based on photonic crystal functions for channel equalization}
+      \field{volume}{28}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{2756\bibrangedash 2759}
+      \range{pages}{4}
+    \endentry
+    \entry{ghorbel2019optomechanical}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=6e4a5d0b6f0688efe9007e834e77a23a}{%
+           family={Ghorbel},
+           familyi={G\bibinitperiod},
+           given={In{è}s},
+           giveni={I\bibinitperiod}}}%
+        {{hash=71eee9aa9518fba4ae4ea1cc84e07b68}{%
+           family={Swiadek},
+           familyi={S\bibinitperiod},
+           given={Fran{ç}ois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a409fcd3e2f9ae4fd6790ca28b9be27a}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c3396c86dfbd5d3b506e2945623a4c43}{%
+           family={Dolfi},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=016bbb2a77f8568064c4d9e150ddfa67}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Aude},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7646da650a3f6a8f5cb7164cf223044b}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gr{\’e}gory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=fb528f41985ed9f9bed42548714d6a59}{%
+           family={Morvan},
+           familyi={M\bibinitperiod},
+           given={Lo{\”ı}c},
+           giveni={L\bibinitperiod}}}%
+        {{hash=83c2605ac3bd9e02ced4a320df5c8e52}{%
+           family={Braive},
+           familyi={B\bibinitperiod},
+           given={R{\’e}my},
+           giveni={R\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing LLC}%
+      }
+      \strng{namehash}{7aac6e216a68e527fb47d7b55f1f7f73}
+      \strng{fullhash}{90f9aeb4f46b04760d8f76c8a3caa25d}
+      \strng{bibnamehash}{7aac6e216a68e527fb47d7b55f1f7f73}
+      \strng{authorbibnamehash}{7aac6e216a68e527fb47d7b55f1f7f73}
+      \strng{authornamehash}{7aac6e216a68e527fb47d7b55f1f7f73}
+      \strng{authorfullhash}{90f9aeb4f46b04760d8f76c8a3caa25d}
+      \field{labelalpha}{Gho+19}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{APL Photonics}
+      \field{number}{11}
+      \field{title}{Optomechanical gigahertz oscillator made of a two photon absorption free piezoelectric III/V semiconductor}
+      \field{volume}{4}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{116103}
+      \range{pages}{1}
+    \endentry
+    \entry{han2015high}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=af68519cb630127230b40105beffef68}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7646da650a3f6a8f5cb7164cf223044b}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gr{\’e}gory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b0a35533fefd89b028a5e08fbadd6201}{%
+           family={Checoury},
+           familyi={C\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=bcbf32b14091f2c7c8934584e87d60e8}{%
+           family={Bourderionnet},
+           familyi={B\bibinitperiod},
+           given={J{\’e}r{ô}me},
+           giveni={J\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c292166b3d5a68cfd5aa9acb7495d208}{%
+           family={Boucaud},
+           familyi={B\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{30d5ac336edc89753d103282479effc0}
+      \strng{fullhash}{f4452c9015dca30a89a6ed7125d2c0be}
+      \strng{bibnamehash}{30d5ac336edc89753d103282479effc0}
+      \strng{authorbibnamehash}{30d5ac336edc89753d103282479effc0}
+      \strng{authornamehash}{30d5ac336edc89753d103282479effc0}
+      \strng{authorfullhash}{f4452c9015dca30a89a6ed7125d2c0be}
+      \field{labelalpha}{Han+15}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{CLEO: Science and Innovations}
+      \field{title}{High contrast and power-efficient thermally-controlled optical switch on Silicon-on-Insulator}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{SM2I\bibrangedash 7}
+      \range{pages}{-1}
+    \endentry
+    \entry{husko2017hybrid}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=b3cd8f3762f1a74ff279a68ae1925cae}{%
+           family={Husko},
+           familyi={H\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a629d9555657c8cd9988a4e04d087443}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=290f64560e307395a47d58cc7ceaeb85}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={JD},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7dbac75ad841dd417cbef573ad75c0eb}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=410adcc66150c86e9bbce93b9085f9c7}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Z},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0b22d045f8096709779280e178551e9f}{%
+           family={Gosztola},
+           familyi={G\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fb5099420e346e566d6650f9def3512a}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={X},
+           giveni={X\bibinitperiod}}}%
+        {{hash=38b66fef442da1a394fcb9baabc9c72e}{%
+           family={Combrie},
+           familyi={C\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9c3fe4cfc34b70a23b27d1ad1e5b6ea5}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=59b2abb5fe45884a94edde71afa253a8}{%
+           family={Hersam},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{a85c186ea5b30fa691f6c754805207ea}
+      \strng{fullhash}{0c8a05211af7011bb0bf25aba17d1291}
+      \strng{bibnamehash}{a85c186ea5b30fa691f6c754805207ea}
+      \strng{authorbibnamehash}{a85c186ea5b30fa691f6c754805207ea}
+      \strng{authornamehash}{a85c186ea5b30fa691f6c754805207ea}
+      \strng{authorfullhash}{0c8a05211af7011bb0bf25aba17d1291}
+      \field{extraname}{1}
+      \field{labelalpha}{Hus+17}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Frontiers in Optics}
+      \field{title}{A hybrid silicon-phosphorene nanolaser}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{FW5A\bibrangedash 5}
+      \range{pages}{-1}
+    \endentry
+    \entry{husko2018silicon}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=84af988edbd09a481a9d17bfc51c4710}{%
+           family={Husko},
+           familyi={H\bibinitperiod},
+           given={Chad},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b7b5b289a335f435e89a957b29e0f469}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Joohoon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3050346f88c6095ac69e4549a4df9593}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={Joshua\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=af68519cb630127230b40105beffef68}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d62f62d3978c17790f7baed67f41b04a}{%
+           family={Gosztola},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=87bd54c7e98a0c4048364c57b89c299f}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Xuedan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=59b2abb5fe45884a94edde71afa253a8}{%
+           family={Hersam},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{d5be365e8a763039229a4ee9960e253d}
+      \strng{fullhash}{518a1405a3c881bebfe0e870dc69339f}
+      \strng{bibnamehash}{d5be365e8a763039229a4ee9960e253d}
+      \strng{authorbibnamehash}{d5be365e8a763039229a4ee9960e253d}
+      \strng{authornamehash}{d5be365e8a763039229a4ee9960e253d}
+      \strng{authorfullhash}{518a1405a3c881bebfe0e870dc69339f}
+      \field{extraname}{2}
+      \field{labelalpha}{Hus+18}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nano letters}
+      \field{number}{10}
+      \field{title}{Silicon-Phosphorene Nanocavity-Enhanced Optical Emission at Telecommunications Wavelengths}
+      \field{volume}{18}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{6515\bibrangedash 6520}
+      \range{pages}{6}
+    \endentry
+    \entry{lumilliwatt}{article}{}
+      \name{author}{10}{}{%
+        {{hash=a7bf8918da6a998baafc8415101a17f9}{%
+           family={LU},
+           familyi={L\bibinitperiod},
+           given={XIYUAN},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8b8ac17ac18834d3532061db4482ca34}{%
+           family={MOILLE},
+           familyi={M\bibinitperiod},
+           given={GREGORY},
+           giveni={G\bibinitperiod}}}%
+        {{hash=755586ae2357f955097d91146ce61d90}{%
+           family={SINGH},
+           familyi={S\bibinitperiod},
+           given={ANSHUMAN},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a808cae468fdeb2ba701493a3fac4540}{%
+           family={LI},
+           familyi={L\bibinitperiod},
+           given={QING},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=44548e64751ea79aefe844fe727589f3}{%
+           family={WESTLY},
+           familyi={W\bibinitperiod},
+           given={DARON\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fa700c0c69f5f981140b8cd7d9b7acf7}{%
+           family={RAO},
+           familyi={R\bibinitperiod},
+           given={ASHUTOSH},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f0e1a5217d4c23af3e3b089ed9c26fa8}{%
+           family={YU},
+           familyi={Y\bibinitperiod},
+           given={SU-PENG},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=a237d6fc4829a8fe2df78241d144ed84}{%
+           family={BRILES},
+           familyi={B\bibinitperiod},
+           given={TRAVIS\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e91e835132e0dd9040b40cdf93f9db12}{%
+           family={PAPP},
+           familyi={P\bibinitperiod},
+           given={SCOTT\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e0915dbb3729d4c4e9192ad81de255cf}{%
+           family={SRINIVASAN},
+           familyi={S\bibinitperiod},
+           given={KARTIK},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c6836dbc24e2c2441b49e50c4e5822e}
+      \strng{fullhash}{8420f212349822fe5de24b0a5172059a}
+      \strng{bibnamehash}{4c6836dbc24e2c2441b49e50c4e5822e}
+      \strng{authorbibnamehash}{4c6836dbc24e2c2441b49e50c4e5822e}
+      \strng{authornamehash}{4c6836dbc24e2c2441b49e50c4e5822e}
+      \strng{authorfullhash}{8420f212349822fe5de24b0a5172059a}
+      \field{labelalpha}{LU+}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Milliwatt-threshold visible-telecom optical parametric oscillation using silicon nanophotonics: supplementary material}
+      \true{nocite}
+    \endentry
+    \entry{luchip}{article}{}
+      \name{author}{7}{}{%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=e9338fb2fa0dedf516c88d3f35e81c77}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c07bbc4855699827a8dbce4a4f4fd488}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Anshuman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1bb729024a92e87c29f32b2c4206d0e5}{%
+           family={Anant},
+           familyi={A\bibinitperiod},
+           given={Vikas},
+           giveni={V\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{fullhash}{fea8da986a3c33e49d735f3ba92a4fbb}
+      \strng{bibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorbibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authornamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorfullhash}{fea8da986a3c33e49d735f3ba92a4fbb}
+      \field{extraname}{1}
+      \field{labelalpha}{Lu+}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Chip-based visible-telecom photon pair sources using integrated microresonators}
+      \true{nocite}
+    \endentry
+    \entry{lu2018visible}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c07bbc4855699827a8dbce4a4f4fd488}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Anshuman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e9338fb2fa0dedf516c88d3f35e81c77}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{fullhash}{d200dbc42aaafa82600a39eff6994a62}
+      \strng{bibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorbibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authornamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorfullhash}{d200dbc42aaafa82600a39eff6994a62}
+      \field{extraname}{2}
+      \field{labelalpha}{Lu+18}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{CLEO: QELS\_Fundamental Science}
+      \field{title}{Visible-telecom photon pair generation with silicon nitride nanophotonics}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{FTh1G\bibrangedash 3}
+      \range{pages}{-1}
+    \endentry
+    \entry{lu2019chip}{article}{}
+      \name{author}{7}{}{%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=e9338fb2fa0dedf516c88d3f35e81c77}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c07bbc4855699827a8dbce4a4f4fd488}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Anshuman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1bb729024a92e87c29f32b2c4206d0e5}{%
+           family={Anant},
+           familyi={A\bibinitperiod},
+           given={Vikas},
+           giveni={V\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{fullhash}{fea8da986a3c33e49d735f3ba92a4fbb}
+      \strng{bibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorbibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authornamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorfullhash}{fea8da986a3c33e49d735f3ba92a4fbb}
+      \field{extraname}{3}
+      \field{labelalpha}{Lu+19}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature physics}
+      \field{number}{4}
+      \field{title}{Chip-integrated visible—telecom entangled photon pair source for quantum communication}
+      \field{volume}{15}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{373\bibrangedash 381}
+      \range{pages}{9}
+    \endentry
+    \entry{lu2019efficient}{article}{}
+      \name{author}{10}{}{%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=e9338fb2fa0dedf516c88d3f35e81c77}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c07bbc4855699827a8dbce4a4f4fd488}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Anshuman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=64f3bb8a9ba38c43c297e7223f67a32c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Su-Peng},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=dbbb281c09c591cd1cfcc110186db14d}{%
+           family={Briles},
+           familyi={B\bibinitperiod},
+           given={Travis\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{fullhash}{fd0d70b382f377d0ba739ee5917ec649}
+      \strng{bibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorbibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authornamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorfullhash}{fd0d70b382f377d0ba739ee5917ec649}
+      \field{extraname}{4}
+      \field{labelalpha}{Lu+19}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Photonics}
+      \field{number}{9}
+      \field{title}{Efficient telecom-to-visible spectral translation through ultralow power nonlinear nanophotonics}
+      \field{volume}{13}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{593\bibrangedash 601}
+      \range{pages}{9}
+    \endentry
+    \entry{lu2019milliwatt}{article}{}
+      \name{author}{10}{}{%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c07bbc4855699827a8dbce4a4f4fd488}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Anshuman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=e9338fb2fa0dedf516c88d3f35e81c77}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=64f3bb8a9ba38c43c297e7223f67a32c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Su-Peng},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=dbbb281c09c591cd1cfcc110186db14d}{%
+           family={Briles},
+           familyi={B\bibinitperiod},
+           given={Travis\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{fullhash}{56c741595619ba4daa13f944cb7be4d8}
+      \strng{bibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorbibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authornamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorfullhash}{56c741595619ba4daa13f944cb7be4d8}
+      \field{extraname}{5}
+      \field{labelalpha}{Lu+19}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optica}
+      \field{number}{12}
+      \field{title}{Milliwatt-threshold visible—telecom optical parametric oscillation using silicon nanophotonics}
+      \field{volume}{6}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{1535\bibrangedash 1541}
+      \range{pages}{7}
+    \endentry
+    \entry{lu2019sub}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c07bbc4855699827a8dbce4a4f4fd488}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Anshuman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=7b5ce169c0a6699803e38a6ff2eb2c2b}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=64f3bb8a9ba38c43c297e7223f67a32c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Su-Peng},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=dbbb281c09c591cd1cfcc110186db14d}{%
+           family={Briles},
+           familyi={B\bibinitperiod},
+           given={Travis\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=899508e7b7bf2990a4314c7549c23c90}{%
+           family={Drake},
+           familyi={D\bibinitperiod},
+           given={Tara},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{fullhash}{2d76ff66125317bc729a62925af33661}
+      \strng{bibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorbibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authornamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorfullhash}{2d76ff66125317bc729a62925af33661}
+      \field{extraname}{6}
+      \field{labelalpha}{Lu+19}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extraalpha}{4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Laser Science}
+      \field{title}{Sub-mW optical parametric oscillation across visible and telecommunications bands using silicon nanophotonics}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{LTu5E\bibrangedash 3}
+      \range{pages}{-1}
+    \endentry
+    \entry{lu2020efficient}{article}{}
+      \name{author}{5}{}{%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7b5ce169c0a6699803e38a6ff2eb2c2b}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{fullhash}{fd98a6fec6a759c87703bb0bcb53c6ec}
+      \strng{bibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorbibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authornamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorfullhash}{fd98a6fec6a759c87703bb0bcb53c6ec}
+      \field{extraname}{7}
+      \field{labelalpha}{Lu+20}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2003.12176}
+      \field{title}{Efficient photo-induced second harmonic generation in silicon photonics}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{lu2020chip}{article}{}
+      \name{author}{5}{}{%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7b5ce169c0a6699803e38a6ff2eb2c2b}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{fullhash}{fd98a6fec6a759c87703bb0bcb53c6ec}
+      \strng{bibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorbibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authornamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorfullhash}{fd98a6fec6a759c87703bb0bcb53c6ec}
+      \field{extraname}{8}
+      \field{labelalpha}{Lu+20}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2003.12177}
+      \field{title}{On-chip optical parametric oscillation into the visible: generating red, orange, yellow, and green from a near-infrared pump}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{lu2020proposal}{article}{}
+      \name{author}{4}{}{%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{fullhash}{df3cf024bfd30ca9cbd67cfe17e1c678}
+      \strng{bibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorbibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authornamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorfullhash}{df3cf024bfd30ca9cbd67cfe17e1c678}
+      \field{extraname}{9}
+      \field{labelalpha}{Lu+20}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2010.06811}
+      \field{title}{Proposal for noise-free visible-telecom quantum frequency conversion through third-order sum and difference frequency generation}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{lu2020universal}{article}{}
+      \name{author}{5}{}{%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e9338fb2fa0dedf516c88d3f35e81c77}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{fullhash}{1f460c7c3ae936065d6202d4ebf39bf7}
+      \strng{bibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorbibnamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authornamehash}{b80902b17f0f66590fd8316bbc5d1db3}
+      \strng{authorfullhash}{1f460c7c3ae936065d6202d4ebf39bf7}
+      \field{extraname}{10}
+      \field{labelalpha}{Lu+20}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extraalpha}{4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Photonics Research}
+      \field{number}{11}
+      \field{title}{Universal frequency engineering tool for microcavity nonlinear optics: multiple selective mode splitting of whispering-gallery resonances}
+      \field{volume}{8}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1676\bibrangedash 1686}
+      \range{pages}{11}
+    \endentry
+    \entry{martin2016triply}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=016bbb2a77f8568064c4d9e150ddfa67}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Aude},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7646da650a3f6a8f5cb7164cf223044b}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gr{\’e}gory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bd1b90da7e0f187bba7b1f9cc12d803a}{%
+           family={Debuisschert},
+           familyi={D\bibinitperiod},
+           given={Thierry},
+           giveni={T\bibinitperiod}}}%
+        {{hash=680bbd503bfd0b1ad5607aa96917c47c}{%
+           family={Lian},
+           familyi={L\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3469ed760611b14102e1e59b93711bdf}{%
+           family={Sokolov},
+           familyi={S\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4404cdb6f644421f57cd34a65ec5d685}{%
+           family={Mosk},
+           familyi={M\bibinitperiod},
+           given={Allard\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=cdec19a91512b8880ee059f7b00c31a3}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{dbd499d01050f2146c96ccd0e64a5986}
+      \strng{fullhash}{2308f55d6fdf68389413bf78bdbe6d60}
+      \strng{bibnamehash}{dbd499d01050f2146c96ccd0e64a5986}
+      \strng{authorbibnamehash}{dbd499d01050f2146c96ccd0e64a5986}
+      \strng{authornamehash}{dbd499d01050f2146c96ccd0e64a5986}
+      \strng{authorfullhash}{2308f55d6fdf68389413bf78bdbe6d60}
+      \field{labelalpha}{Mar+16}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 Conference on Lasers and Electro-Optics (CLEO)}
+      \field{title}{Triply-resonant continuous wave parametric source with a microwatt pump}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{moille2016modeling}{article}{}
+      \name{author}{3}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{693d9e96436bad61ee47871bf4f289c7}
+      \strng{fullhash}{693d9e96436bad61ee47871bf4f289c7}
+      \strng{bibnamehash}{693d9e96436bad61ee47871bf4f289c7}
+      \strng{authorbibnamehash}{693d9e96436bad61ee47871bf4f289c7}
+      \strng{authornamehash}{693d9e96436bad61ee47871bf4f289c7}
+      \strng{authorfullhash}{693d9e96436bad61ee47871bf4f289c7}
+      \field{extraname}{1}
+      \field{labelalpha}{MCD16}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review A}
+      \field{number}{2}
+      \field{title}{Modeling of the carrier dynamics in nonlinear semiconductor nanoscale resonators}
+      \field{volume}{94}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{023814}
+      \range{pages}{1}
+    \endentry
+    \entry{moille2017nanophotonic}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=7646da650a3f6a8f5cb7164cf223044b}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gr{\’e}gory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, Cham}%
+      }
+      \strng{namehash}{f036f5609d66d5dc7a170a3afa987e13}
+      \strng{fullhash}{f036f5609d66d5dc7a170a3afa987e13}
+      \strng{bibnamehash}{f036f5609d66d5dc7a170a3afa987e13}
+      \strng{authorbibnamehash}{f036f5609d66d5dc7a170a3afa987e13}
+      \strng{authornamehash}{f036f5609d66d5dc7a170a3afa987e13}
+      \strng{authorfullhash}{f036f5609d66d5dc7a170a3afa987e13}
+      \field{extraname}{2}
+      \field{labelalpha}{MCD17}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Green Photonics and Electronics}
+      \field{title}{Nanophotonic Approach to Energy-Efficient Ultra-Fast All-Optical Gates}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{107\bibrangedash 137}
+      \range{pages}{31}
+    \endentry
+    \entry{moille2016all}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=7646da650a3f6a8f5cb7164cf223044b}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gr{\’e}gory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {International Society for Optics}%
+        {Photonics}%
+      }
+      \strng{namehash}{21dd108cee9300170a3e0a79309c39d9}
+      \strng{fullhash}{21dd108cee9300170a3e0a79309c39d9}
+      \strng{bibnamehash}{21dd108cee9300170a3e0a79309c39d9}
+      \strng{authorbibnamehash}{21dd108cee9300170a3e0a79309c39d9}
+      \strng{authornamehash}{21dd108cee9300170a3e0a79309c39d9}
+      \strng{authorfullhash}{21dd108cee9300170a3e0a79309c39d9}
+      \field{labelalpha}{MDC16}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SPIE Photonics Europe}
+      \field{title}{All-optical gates based on photonic crystal resonators}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{98940N\bibrangedash 98940N}
+      \range{pages}{-1}
+    \endentry
+    \entry{moille2013photo}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=7dbac75ad841dd417cbef573ad75c0eb}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9c3fe4cfc34b70a23b27d1ad1e5b6ea5}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=38b66fef442da1a394fcb9baabc9c72e}{%
+           family={Combrie},
+           familyi={C\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=538e1756c4ed72c785dc9ae1ca156a02}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f48ca8238538b037283445bb8909b4a0}{%
+           family={Tripon-Canseliet},
+           familyi={T\bibinithyphendelim C\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a4239fd30e1d2dbb59fc625d200cf86e}{%
+           family={Decoster},
+           familyi={D\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a586b309f990904a7036253626ccefa6}{%
+           family={Neuilly},
+           familyi={N\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d75a88dbf15738ea35bc891e1a4f9933}{%
+           family={Morgenroth},
+           familyi={M\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ff1a98c1e26cd295b678da781fa3b50}
+      \strng{fullhash}{83a8c24f16779d1da1f893fc375f938a}
+      \strng{bibnamehash}{6ff1a98c1e26cd295b678da781fa3b50}
+      \strng{authorbibnamehash}{6ff1a98c1e26cd295b678da781fa3b50}
+      \strng{authornamehash}{6ff1a98c1e26cd295b678da781fa3b50}
+      \strng{authorfullhash}{83a8c24f16779d1da1f893fc375f938a}
+      \field{extraname}{1}
+      \field{labelalpha}{Moi+13}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Assembl{\’e}e G{\’e}n{\’e}rale du GdR Ondes 2451” Interf{\’e}rences d’ondes”}
+      \field{title}{Photo-commutateur hyperfr{\’e}quence {à} base de cristaux photoniques}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{papier\bibrangedash A26}
+      \range{pages}{-1}
+    \endentry
+    \entry{moille2014highly}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=20ffad22edf82e12388406a76104319b}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Gaelle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=016bbb2a77f8568064c4d9e150ddfa67}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Aude},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8e44c3abcf6057c19a8eb6c498d40093}{%
+           family={Bramerie},
+           familyi={B\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+        {{hash=69eeb6b4158aad405773092e4e4bf415}{%
+           family={Gay},
+           familyi={G\bibinitperiod},
+           given={Mathilde},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c58f86c1aae95a2adb549a9c6388f54f}{%
+           family={Combrie},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{1d3bd0ca83c729a90f095d6a84e4ccf1}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{1d3bd0ca83c729a90f095d6a84e4ccf1}
+      \field{extraname}{2}
+      \field{labelalpha}{Moi+14}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Nonlinear Photonics}
+      \field{title}{A Highly Linear All Optical Gate Based on Coupled Photonic Crystal Cavities}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{NW3A\bibrangedash 5}
+      \range{pages}{-1}
+    \endentry
+    \entry{moille2015recovery}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=7646da650a3f6a8f5cb7164cf223044b}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gr{\’e}gory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9f9846c70e7ba8ea4f55605bc50899be}{%
+           family={Morgenroth},
+           familyi={M\bibinitperiod},
+           given={Laurence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ff684be335d63d0d105986a641b76c92}{%
+           family={Neuilly},
+           familyi={N\bibinitperiod},
+           given={Fran{ç}ois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1621954273913ff27b05485b71b5b790}{%
+           family={Decoster},
+           familyi={D\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cdec19a91512b8880ee059f7b00c31a3}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{4406b3b00ee2b3788a4c354798c8954d}
+      \strng{fullhash}{f6e96b8ee6047395b5db538180f3083f}
+      \strng{bibnamehash}{4406b3b00ee2b3788a4c354798c8954d}
+      \strng{authorbibnamehash}{4406b3b00ee2b3788a4c354798c8954d}
+      \strng{authornamehash}{4406b3b00ee2b3788a4c354798c8954d}
+      \strng{authorfullhash}{f6e96b8ee6047395b5db538180f3083f}
+      \field{extraname}{3}
+      \field{labelalpha}{Moi+15}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{CLEO: Science and Innovations}
+      \field{title}{Recovery time control in a nanophotonic nonlinear gate using atomic layer deposition}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{SF2G\bibrangedash 2}
+      \range{pages}{-1}
+    \endentry
+    \entry{moille2015100ghz}{article}{}
+      \name{author}{8}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9f9846c70e7ba8ea4f55605bc50899be}{%
+           family={Morgenroth},
+           familyi={M\bibinitperiod},
+           given={Laurence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ff684be335d63d0d105986a641b76c92}{%
+           family={Neuilly},
+           familyi={N\bibinitperiod},
+           given={Fran{ç}ois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2d5fcc1e68837553f78b9af17ecbe7ab}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Bowen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1621954273913ff27b05485b71b5b790}{%
+           family={Decoster},
+           familyi={D\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cdec19a91512b8880ee059f7b00c31a3}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{1864b31e57bf5c2c20e4a6057a1ade9f}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{1864b31e57bf5c2c20e4a6057a1ade9f}
+      \field{extraname}{4}
+      \field{labelalpha}{Moi+15}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1506.01609}
+      \field{title}{100ghz integrated all-optical switch enabled by ald}
+      \field{year}{2015}
+      \true{nocite}
+    \endentry
+    \entry{moille2015towards}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=721352135881fce22d807586a6e970c2}{%
+           family={Fuchs},
+           familyi={F\bibinitperiod},
+           given={Kerstin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=64a99dbf76f8ffb9ebcbdeb665767a29}{%
+           family={Yacob},
+           familyi={Y\bibinitperiod},
+           given={Matusala},
+           giveni={M\bibinitperiod}}}%
+        {{hash=97baf5d563723d89dc8358376c7dd2cb}{%
+           family={Reithmaier},
+           familyi={R\bibinitperiod},
+           given={Johann\bibnamedelima Peter},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=cdec19a91512b8880ee059f7b00c31a3}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{6f66b6102aaa04af443cdfc5d6addbcf}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{6f66b6102aaa04af443cdfc5d6addbcf}
+      \field{extraname}{5}
+      \field{labelalpha}{Moi+15}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 International Conference on Photonics in Switching (PS)}
+      \field{title}{Towards faster InP photonic crystal all-optical-gates}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{106\bibrangedash 108}
+      \range{pages}{3}
+    \endentry
+    \entry{moille2016gaas}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=45091b97a2f6303f805aaa0fa4b0d620}{%
+           family={De\bibnamedelima Rossi},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0089b1e75ed32b48d3e89454679777f4}{%
+           family={Tripon-Canseliet},
+           familyi={T\bibinithyphendelim C\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9f9846c70e7ba8ea4f55605bc50899be}{%
+           family={Morgenroth},
+           familyi={M\bibinitperiod},
+           given={Laurence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ff684be335d63d0d105986a641b76c92}{%
+           family={Neuilly},
+           familyi={N\bibinitperiod},
+           given={Fran{ç}ois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1621954273913ff27b05485b71b5b790}{%
+           family={Decoster},
+           familyi={D\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9af87b4e92cca4aa89de08654d8ecaad}{%
+           family={Bellanca},
+           familyi={B\bibinitperiod},
+           given={Gaetano},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{e469eca36ade25b4af43ebb0ba071041}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{e469eca36ade25b4af43ebb0ba071041}
+      \field{extraname}{6}
+      \field{labelalpha}{Moi+16}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 Conference on Lasers and Electro-Optics (CLEO)}
+      \field{title}{GaAs photonic crystal switch for electro-optic sampling}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{moille2016integrated}{article}{}
+      \name{author}{8}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9f9846c70e7ba8ea4f55605bc50899be}{%
+           family={Morgenroth},
+           familyi={M\bibinitperiod},
+           given={Laurence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ff684be335d63d0d105986a641b76c92}{%
+           family={Neuilly},
+           familyi={N\bibinitperiod},
+           given={Fran{ç}ois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2d5fcc1e68837553f78b9af17ecbe7ab}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Bowen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1621954273913ff27b05485b71b5b790}{%
+           family={Decoster},
+           familyi={D\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cdec19a91512b8880ee059f7b00c31a3}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{1864b31e57bf5c2c20e4a6057a1ade9f}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{1864b31e57bf5c2c20e4a6057a1ade9f}
+      \field{extraname}{7}
+      \field{labelalpha}{Moi+16}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Laser \& Photonics Reviews}
+      \field{number}{3}
+      \field{title}{Integrated all-optical switch with 10 ps time resolution enabled by ALD}
+      \field{volume}{10}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{409\bibrangedash 419}
+      \range{pages}{11}
+    \endentry
+    \entry{moille2017acceleration}{article}{}
+      \name{author}{6}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=721352135881fce22d807586a6e970c2}{%
+           family={Fuchs},
+           familyi={F\bibinitperiod},
+           given={Kerstin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=64a99dbf76f8ffb9ebcbdeb665767a29}{%
+           family={Yacob},
+           familyi={Y\bibinitperiod},
+           given={Matusala},
+           giveni={M\bibinitperiod}}}%
+        {{hash=97baf5d563723d89dc8358376c7dd2cb}{%
+           family={Reithmaier},
+           familyi={R\bibinitperiod},
+           given={Johann\bibnamedelima Peter},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=cdec19a91512b8880ee059f7b00c31a3}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{6f66b6102aaa04af443cdfc5d6addbcf}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{6f66b6102aaa04af443cdfc5d6addbcf}
+      \field{extraname}{8}
+      \field{labelalpha}{Moi+17}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics letters}
+      \field{number}{4}
+      \field{title}{Acceleration of the nonlinear dynamics in p-doped indium phosphide nanoscale resonators}
+      \field{volume}{42}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{795\bibrangedash 798}
+      \range{pages}{4}
+    \endentry
+    \entry{moille2018nonlinearities}{article}{}
+      \name{author}{9}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16087c07fd768583f4ae9a9e7f9d1eb1}{%
+           family={Combri{\’e}},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9f9846c70e7ba8ea4f55605bc50899be}{%
+           family={Morgenroth},
+           familyi={M\bibinitperiod},
+           given={Laurence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=48fa307f7461dfdf13382249e90da267}{%
+           family={Lehoucq},
+           familyi={L\bibinitperiod},
+           given={Ga{\”e}lle},
+           giveni={G\bibinitperiod}}}%
+        {{hash=73526f6a92643e3a30799cb6a1dd2432}{%
+           family={Sauvage},
+           familyi={S\bibinitperiod},
+           given={S{\’e}bastien},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c52bfec8ef548c7ec9993482c3354842}{%
+           family={El\bibnamedelima Kurdi},
+           familyi={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Moustafa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c292166b3d5a68cfd5aa9acb7495d208}{%
+           family={Boucaud},
+           familyi={B\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cdec19a91512b8880ee059f7b00c31a3}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=b0a35533fefd89b028a5e08fbadd6201}{%
+           family={Checoury},
+           familyi={C\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{e5db35c3e0667f253e7306d508f60785}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{e5db35c3e0667f253e7306d508f60785}
+      \field{extraname}{9}
+      \field{labelalpha}{Moi+18}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics express}
+      \field{number}{5}
+      \field{title}{Nonlinearities in gaas cavities with high cw input powers enabled by photo-oxidation quenching through ald encapsulation}
+      \field{volume}{26}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{6400\bibrangedash 6406}
+      \range{pages}{7}
+    \endentry
+    \entry{moille2018phase}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=3cfb9173f8e5df98fd91160289624c8b}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sangsik},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7b5ce169c0a6699803e38a6ff2eb2c2b}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{ea3f5baaf532a5ec1cbe336967c2b3cc}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{ea3f5baaf532a5ec1cbe336967c2b3cc}
+      \field{extraname}{10}
+      \field{labelalpha}{Moi+18}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 Conference on Lasers and Electro-Optics (CLEO)}
+      \field{title}{Phase-locked two-color soliton microcombs}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{moille2018phased}{article}{}
+      \name{author}{5}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=3cfb9173f8e5df98fd91160289624c8b}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sangsik},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7b5ce169c0a6699803e38a6ff2eb2c2b}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{ea3f5baaf532a5ec1cbe336967c2b3cc}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{ea3f5baaf532a5ec1cbe336967c2b3cc}
+      \field{extraname}{11}
+      \field{labelalpha}{Moi+18}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics letters}
+      \field{number}{12}
+      \field{title}{Phased-locked two-color single soliton microcombs in dispersion-engineered Si 3 N 4 resonators}
+      \field{volume}{43}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{2772\bibrangedash 2775}
+      \range{pages}{4}
+    \endentry
+    \entry{moille2019broadband}{article}{}
+      \name{author}{10}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=dbbb281c09c591cd1cfcc110186db14d}{%
+           family={Briles},
+           familyi={B\bibinitperiod},
+           given={Travis\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=64f3bb8a9ba38c43c297e7223f67a32c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Su-Peng},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=899508e7b7bf2990a4314c7549c23c90}{%
+           family={Drake},
+           familyi={D\bibinitperiod},
+           given={Tara},
+           giveni={T\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7b5ce169c0a6699803e38a6ff2eb2c2b}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{9564b09906cc82e43c499ee8d7fbb3cb}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{9564b09906cc82e43c499ee8d7fbb3cb}
+      \field{extraname}{12}
+      \field{labelalpha}{Moi+19}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics Letters}
+      \field{number}{19}
+      \field{title}{Broadband resonator-waveguide coupling for efficient extraction of octave-spanning microcombs}
+      \field{volume}{44}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{4737\bibrangedash 4740}
+      \range{pages}{4}
+    \endentry
+    \entry{moille2019chip}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7b5ce169c0a6699803e38a6ff2eb2c2b}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9fee2c2afc62dbdce9ae1d9a3880ab87}{%
+           family={Ranzani},
+           familyi={R\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=0f3eb30395e3bcf226a545ba4636b17f}{%
+           family={Soltani},
+           familyi={S\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{306a3bae1e2713df2edb2e7e6af630ec}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{306a3bae1e2713df2edb2e7e6af630ec}
+      \field{extraname}{13}
+      \field{labelalpha}{Moi+19}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Frontiers in Optics}
+      \field{title}{Chip-Integrated Soliton Microcombs at Cryogenic Temperatures}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{FM4E\bibrangedash 5}
+      \range{pages}{-1}
+    \endentry
+    \entry{moille2019kerr}{article}{}
+      \name{author}{9}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=e9338fb2fa0dedf516c88d3f35e81c77}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9fee2c2afc62dbdce9ae1d9a3880ab87}{%
+           family={Ranzani},
+           familyi={R\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=0f3eb30395e3bcf226a545ba4636b17f}{%
+           family={Soltani},
+           familyi={S\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{34fc5c360eb765d0046c132bb3d9d434}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{34fc5c360eb765d0046c132bb3d9d434}
+      \field{extraname}{14}
+      \field{labelalpha}{Moi+19}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Applied}
+      \field{number}{3}
+      \field{title}{Kerr-Microresonator Soliton Frequency Combs at Cryogenic Temperatures}
+      \field{volume}{12}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{034057}
+      \range{pages}{1}
+    \endentry
+    \entry{moille2019pylle}{article}{}
+      \name{author}{4}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{8da06eb44125c1861671eb4b2a2908a6}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{8da06eb44125c1861671eb4b2a2908a6}
+      \field{extraname}{15}
+      \field{labelalpha}{Moi+19}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1903.10441}
+      \field{title}{pyLLE: a Fast and User Friendly Lugiato-Lefever Equation Solver}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{moille2020broadband}{article}{}
+      \name{author}{10}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=dbbb281c09c591cd1cfcc110186db14d}{%
+           family={Briles},
+           familyi={B\bibinitperiod},
+           given={Travis\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=64f3bb8a9ba38c43c297e7223f67a32c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Su-Peng},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=899508e7b7bf2990a4314c7549c23c90}{%
+           family={Drake},
+           familyi={D\bibinitperiod},
+           given={Tara},
+           giveni={T\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7b5ce169c0a6699803e38a6ff2eb2c2b}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{9564b09906cc82e43c499ee8d7fbb3cb}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{9564b09906cc82e43c499ee8d7fbb3cb}
+      \field{extraname}{16}
+      \field{labelalpha}{Moi+20}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics Letters}
+      \field{number}{17}
+      \field{title}{Broadband resonator-waveguide coupling for efficient extraction of octave-spanning microcombs: publisher’s note}
+      \field{volume}{45}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{4939\bibrangedash 4939}
+      \range{pages}{1}
+    \endentry
+    \entry{moille2020dissipative}{article}{}
+      \name{author}{8}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=65498ffa80651d6965de6324cf6f1631}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9e3682e6a2c2e353207d15ad2f865902}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Weiqiang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=afe7ec2368e61de5aed64c6b387461d9}{%
+           family={Davanco},
+           familyi={D\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0a407d58d2b9e75f3189b3f745b36d87}{%
+           family={Bowers},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{d158101afa047adb824386ba62f0d066}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{d158101afa047adb824386ba62f0d066}
+      \field{extraname}{17}
+      \field{labelalpha}{Moi+20}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Lasers \& Photonics Reviews}
+      \field{number}{8}
+      \field{title}{Dissipative Kerr Solitons in a III-V Microresonator}
+      \field{volume}{14}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{2000022}
+      \range{pages}{1}
+    \endentry
+    \entry{moille2020post}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7b5ce169c0a6699803e38a6ff2eb2c2b}{%
+           family={Westly},
+           familyi={W\bibinitperiod},
+           given={Daron},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{c6d46a415a565442f1763c98b712a5f1}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{c6d46a415a565442f1763c98b712a5f1}
+      \field{extraname}{18}
+      \field{labelalpha}{Moi+20}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 Conference on Lasers and Electro-Optics (CLEO)}
+      \field{title}{Post-Processing Dispersion Engineering of Frequency Combs In Microresonator Addressing Atomic Clock}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{moille2020stable}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=65498ffa80651d6965de6324cf6f1631}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9e3682e6a2c2e353207d15ad2f865902}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Weiqiang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=afe7ec2368e61de5aed64c6b387461d9}{%
+           family={Davanco},
+           familyi={D\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0a407d58d2b9e75f3189b3f745b36d87}{%
+           family={Bowers},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{fullhash}{feaf31e716bae1f32281c593bc95e558}
+      \strng{bibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorbibnamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authornamehash}{4e3410f8703510c5b0d5877d883122da}
+      \strng{authorfullhash}{feaf31e716bae1f32281c593bc95e558}
+      \field{extraname}{19}
+      \field{labelalpha}{Moi+20}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extraalpha}{4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 Conference on Lasers and Electro-Optics (CLEO)}
+      \field{title}{Stable Dissipative Kerr Solitons in a AlGaAs Microresonator Through Cryogenic Operation}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{moille2016non}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=a4321970335a35ce317df5930040dd39}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Grégory},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4321970335a35ce317df5930040dd39}
+      \strng{fullhash}{a4321970335a35ce317df5930040dd39}
+      \strng{bibnamehash}{a4321970335a35ce317df5930040dd39}
+      \strng{authorbibnamehash}{a4321970335a35ce317df5930040dd39}
+      \strng{authornamehash}{a4321970335a35ce317df5930040dd39}
+      \strng{authorfullhash}{a4321970335a35ce317df5930040dd39}
+      \field{extraname}{1}
+      \field{labelalpha}{Moi16}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Non-Linear Dynamics in Semiconductor Nano-Structures for Signal Processing}
+      \field{type}{phdthesis}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
+    \entry{moille2017parametric}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{806d210a98febc074751a7120044e381}
+      \strng{fullhash}{806d210a98febc074751a7120044e381}
+      \strng{bibnamehash}{806d210a98febc074751a7120044e381}
+      \strng{authorbibnamehash}{806d210a98febc074751a7120044e381}
+      \strng{authornamehash}{806d210a98febc074751a7120044e381}
+      \strng{authorfullhash}{806d210a98febc074751a7120044e381}
+      \field{extraname}{2}
+      \field{labelalpha}{Moi17}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Integrated Photonics Research, Silicon and Nanophotonics}
+      \field{title}{Parametric Interactions with Microwatt Pump In III/V Resonators}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{ITh2C\bibrangedash 6}
+      \range{pages}{-1}
+    \endentry
+    \entry{puentes2019spin}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=78de44687ef1dbb092c7817b046a69b5}{%
+           family={Puentes},
+           familyi={P\bibinitperiod},
+           given={Graciana},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6d4f9639628b44b7911710ca3bd67d2f}{%
+           family={Shalaginov},
+           familyi={S\bibinitperiod},
+           given={Mikhail\bibnamedelima Y},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=6c81becd18f84b117007818c7cb41738}{%
+           family={An},
+           familyi={A\bibinitperiod},
+           given={Sensong},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bac6a7a5d8c835c2ebe5288a6fe722b4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod}}}%
+        {{hash=15dbc4899164647d84fc92f6fb8790ab}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a94d8de5de91d53f8502ccc054707391}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={Anuradha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c2c05f372b8b31fabd575328ea0d5c87}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hualiang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c85ca7eb684d3e244db996f1079d1211}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Juejun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c6e602a4b723187c79f44e97597e5987}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Tian},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9cc80037ecc36ce32b29ef979f5d7248}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Guiyuan},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{c245f93242df4e7388a3a37d0a4fe2c6}
+      \strng{fullhash}{4a596570d64e7e5a2f0b097d257f4856}
+      \strng{bibnamehash}{c245f93242df4e7388a3a37d0a4fe2c6}
+      \strng{authorbibnamehash}{c245f93242df4e7388a3a37d0a4fe2c6}
+      \strng{authornamehash}{c245f93242df4e7388a3a37d0a4fe2c6}
+      \strng{authorfullhash}{4a596570d64e7e5a2f0b097d257f4856}
+      \field{labelalpha}{Pue+19}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Frontiers in Optics}
+      \field{title}{SPIN HALL EFFECT OF LIGHT IN PHOTONIC MATERIALS}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{FM4B\bibrangedash 3}
+      \range{pages}{-1}
+    \endentry
+    \entry{rao2020integrated}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=d7bb8c9e73f84bee31c8c8996643a3f1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=dc7ebe2fff13a4770e6168699535ff14}{%
+           family={Sacchetto},
+           familyi={S\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8f6bbe3d1a7e480a28f5e809556f275f}{%
+           family={Geiselmann},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1e53dade7e440aeaf79c2e944f419930}{%
+           family={Zervas},
+           familyi={Z\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=29ab38b895612d795aecdd5cedf97742}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d347ba54d3005467fd5b0b82e4bb80bc}{%
+           family={Bowers},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{b29ebc323022dc847b6a2ce36ba5804d}
+      \strng{fullhash}{c783c0695b4509f98c76bde027140b80}
+      \strng{bibnamehash}{b29ebc323022dc847b6a2ce36ba5804d}
+      \strng{authorbibnamehash}{b29ebc323022dc847b6a2ce36ba5804d}
+      \strng{authornamehash}{b29ebc323022dc847b6a2ce36ba5804d}
+      \strng{authorfullhash}{c783c0695b4509f98c76bde027140b80}
+      \field{labelalpha}{Rao+20}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{CLEO: Science and Innovations}
+      \field{title}{Integrated photonic interposers for processing octave-spanning microresonator frequency combs}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{SF3O\bibrangedash 1}
+      \range{pages}{-1}
+    \endentry
+    \entry{simonsilicon}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{5}{}{%
+        {{hash=4da84205f4a6091bdd16055f3af43dc8}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Christophe\bibnamedelima Peucheret},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=af68519cb630127230b40105beffef68}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b0a35533fefd89b028a5e08fbadd6201}{%
+           family={Checoury},
+           familyi={C\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=30ebb0d007abcda1a390716af56ee738}{%
+           family={Bourderionnet},
+           familyi={B\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{61fbf1bdd1699427258a8ef6d028c2fc}
+      \strng{fullhash}{3b233ec1eef688b3ce51c26fb112bc01}
+      \strng{bibnamehash}{61fbf1bdd1699427258a8ef6d028c2fc}
+      \strng{authorbibnamehash}{61fbf1bdd1699427258a8ef6d028c2fc}
+      \strng{authornamehash}{61fbf1bdd1699427258a8ef6d028c2fc}
+      \strng{authorfullhash}{3b233ec1eef688b3ce51c26fb112bc01}
+      \field{labelalpha}{Sim+}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Silicon-on-Insulator RF Filter Based on Photonic Crystal Functions for Channel Equalization}
+      \true{nocite}
+    \endentry
+    \entry{yu2018bridging}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=64f3bb8a9ba38c43c297e7223f67a32c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Su-Peng},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=dbbb281c09c591cd1cfcc110186db14d}{%
+           family={Briles},
+           familyi={B\bibinitperiod},
+           given={Travis\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=55c420a5d618f0964129cba1d250b25d}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory\bibnamedelima T},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=315fd2fe29daeeb754053bfce4ff685e}{%
+           family={Diddams},
+           familyi={D\bibinitperiod},
+           given={Scott\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{fullhash}{4fff77d90a35a829aeb6de7519b3367c}
+      \strng{bibnamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authorbibnamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authornamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authorfullhash}{4fff77d90a35a829aeb6de7519b3367c}
+      \field{extraname}{1}
+      \field{labelalpha}{Yu+18}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Frontiers in Optics}
+      \field{title}{Bridging Telecom Wavelengths to Alkali Atomic Transitions with Tunable Kerr Frequency Combs}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{FTh3C\bibrangedash 3}
+      \range{pages}{-1}
+    \endentry
+    \entry{yu2019direct}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=64f3bb8a9ba38c43c297e7223f67a32c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Su-Peng},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=e98e0d850aeb2842fcacb12cff473967}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Hojoong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=dbbb281c09c591cd1cfcc110186db14d}{%
+           family={Briles},
+           familyi={B\bibinitperiod},
+           given={Travis\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9b099f64b4b3c1e2b9615b24ed919b44}{%
+           family={Carlson},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelima R},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=806d210a98febc074751a7120044e381}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Optical Society of America}%
+      }
+      \strng{namehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{fullhash}{e6ff27a8e74cba85daef08cf837ea06e}
+      \strng{bibnamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authorbibnamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authornamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authorfullhash}{e6ff27a8e74cba85daef08cf837ea06e}
+      \field{extraname}{2}
+      \field{labelalpha}{Yu+19}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{CLEO: Science and Innovations}
+      \field{title}{Direct Mode-Frequency Control for Nonlinear Optics in Photonic-Crystal Ring Resonators}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{SM3O\bibrangedash 6}
+      \range{pages}{-1}
+    \endentry
+    \entry{yu2019tuning}{article}{}
+      \name{author}{7}{}{%
+        {{hash=64f3bb8a9ba38c43c297e7223f67a32c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Su-Peng},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=dbbb281c09c591cd1cfcc110186db14d}{%
+           family={Briles},
+           familyi={B\bibinitperiod},
+           given={Travis\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=55c420a5d618f0964129cba1d250b25d}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory\bibnamedelima T},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=662ae0bb411a285bcc75d0027b727479}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xiyuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=315fd2fe29daeeb754053bfce4ff685e}{%
+           family={Diddams},
+           familyi={D\bibinitperiod},
+           given={Scott\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{fullhash}{4fff77d90a35a829aeb6de7519b3367c}
+      \strng{bibnamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authorbibnamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authornamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authorfullhash}{4fff77d90a35a829aeb6de7519b3367c}
+      \field{extraname}{3}
+      \field{labelalpha}{Yu+19}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Applied}
+      \field{number}{4}
+      \field{title}{Tuning Kerr-soliton frequency combs to atomic resonances}
+      \field{volume}{11}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{044017}
+      \range{pages}{1}
+    \endentry
+    \entry{yu2020spontaneous}{article}{}
+      \name{author}{6}{}{%
+        {{hash=64f3bb8a9ba38c43c297e7223f67a32c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Su-Peng},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=d28819e123d8cec14718ddfc82751dd9}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={Daniel\bibnamedelima C},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e98e0d850aeb2842fcacb12cff473967}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Hojoong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=55c420a5d618f0964129cba1d250b25d}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Gregory\bibnamedelima T},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5148d27a4ea9c6925f3cafa704833264}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Scott\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{fullhash}{4894470a8781a57286eede371fc81d7c}
+      \strng{bibnamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authorbibnamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authornamehash}{908cb4af984c262cf70c77a6792f1901}
+      \strng{authorfullhash}{4894470a8781a57286eede371fc81d7c}
+      \field{extraname}{4}
+      \field{labelalpha}{Yu+20}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2002.12502}
+      \field{title}{Spontaneous pulse formation in edge-less photonic crystal resonators}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

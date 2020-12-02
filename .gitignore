@@ -12,8 +12,6 @@ Icon?
 *.acn
 *.acr
 *.alg
-*.bbl
-*.blg
 *.dvi
 *.glg
 *.gls
@@ -31,5 +29,6 @@ Icon?
 *.ldf
 *.zip
 *.fls
+*.xml
 *.fdb_latexmk
 *Notes.bib
