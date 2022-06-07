@@ -69,6 +69,7 @@
 			doi=true,
 			url=false,
 			isbn=true,
+      firstinits=true,
 			abbreviate=true,
 			useauthor=true,
 			sorting=ymdt,
@@ -196,6 +197,12 @@
   BoldFont=*-Medium,
   BoldItalicFont=*-MediumItalic,
 ]{Roboto}
+
+\newfontfamily{\FAFR}{Font Awesome 6 Free Regular}
+\newfontfamily{\FAFS}{Font Awesome 6 Free Solid}
+\newfontfamily{\FAB}{Font Awesome 6 Brands Regular}
+\def\faEmail{{\FAFR \symbol{"F0E0}}} % Email
+\def\faPhone{\FAFS \symbol{"F095}} % Phone
 
 \newcommand*{\footerfont}{\sourcesanspro}
 \newcommand*{\bodyfont}{\sourcesanspro}
@@ -394,8 +401,8 @@
             \begin{minipage}[t]{\addresslength}%
                 \vspace{-1.2\firstheight}
                 \headeraddressstyle{\@address}\\
-                \headersocialstyle{\@mobile}\\
-                \headersocialstyle{ \href{mailto:\@email}{\@email}}\\
+                \headersocialstyle{\faPhone~~\@mobile}\\
+                \headersocialstyle{ \href{mailto:\@email}{\faEmail~~\@email}}\\
             \end{minipage}
         }
     \end{tabular}
