@@ -49,7 +49,7 @@
 \RequirePackage[quiet]{fontspec}
 \defaultfontfeatures{Ligatures=TeX}
 \RequirePackage{unicode-math}
-\RequirePackage{fontawesome}
+% \RequirePackage{fontawesome}
 \RequirePackage[default,opentype]{sourcesanspro}
 \RequirePackage[skins,,breakable]{tcolorbox}
 \RequirePackage{parskip}
@@ -394,8 +394,8 @@
             \begin{minipage}[t]{\addresslength}%
                 \vspace{-1.2\firstheight}
                 \headeraddressstyle{\@address}\\
-                \headersocialstyle{\faMobile~~\@mobile}\\
-                \headersocialstyle{ \href{mailto:\@email}{\faEnvelope~~\@email}}\\
+                \headersocialstyle{\@mobile}\\
+                \headersocialstyle{ \href{mailto:\@email}{\@email}}\\
             \end{minipage}
         }
     \end{tabular}
