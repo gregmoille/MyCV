@@ -74,7 +74,7 @@
         {
           \begin{cvitems} % Description(s) of tasks/responsibilities
             \item {Study of chip-scale integrated micro-resonators made of Silicon Nitride for $\chi^{(3)}$ frequency comb applications.}
-            \item{Development of in-house modelling tools, fabrication in clean-room, development of new experimental setups}
+            \item{Development of in-house modelling tools, clean-room fabrication, development of new experimental setups}
           \end{cvitems}
         }
     \cventry
@@ -85,7 +85,7 @@
         {
           \begin{cvitems} % Description(s) of tasks/responsibilities
             \item {Study of carrier dynamics generated through $\chi^{(3)}$ non-linearity in III-V photonic crystals cavities}
-            \item {Development of in-house computational solver (FDTD, FEM, CMT), fabrication and characterization through custom developed setups}
+            \item {Development of in-house computational solvers (FDTD, FEM, CMT), fabrication and measurement with custom developed setups}
           \end{cvitems}
         }
 }%
@@ -137,7 +137,7 @@
     \cventry{}{Contribution to Funded Projects}{}{}{
         \begin{cvitems} % Description(s) of tasks/responsibilities
             \item {Agence National de la Recherche (France): \textit{AUCTOPUSS (2013-2015)} --  \textit{ETHAN (2015-2016)}}
-            \item {DARPA (USA): \textit{DODOS (2017-present)} --  \textit{ACES (2017-present)} -- \textit{APhi (2019-present)} --  \textit{LUMOS (2021-present)} --  \textit{SAVaNT (2021-present)}}
+            \item {DARPA (USA): \textit{DODOS (2017-2020)} --  \textit{ACES (2017-2021)} -- \textit{APhi (2019-present)} --  \textit{LUMOS (2021-present)} --  \textit{SAVaNT (2021-present)}}
             \item {Space Force \& Air Force Research Laboratory (USA): \textit{PICs for SCPNT (2022-present)}}
         \end{cvitems}
     }
@@ -193,13 +193,13 @@
     \cventry{}{Peer Reviewing}{}{}%
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-            \item {Referee for \textit{Nature Communications, Physical Review Letters, Physical Review Applied, Physical Review A, Physical Review Research, Laser and Photonics Reviews, Optica, Optics Letters, Optics Express, OSA Continuum, ACS Photonics, Applied Physics Letters Photonics, Micromachine, SPIE Advanced Photonics}}
+            \item {Referee for \textit{Optica, JOSA B, Optics Letters, Optics Express, OSA Continuum, Nature Communications, Physical Review Letters, Physical Review Applied, Physical Review A, Physical Review Research, Laser and Photonics Reviews,  ACS Photonics, Applied Physics Letters Photonics, Micromachine, SPIE Advanced Photonics}}
       \end{cvitems}
     }
     \cventry{}{Review Committee Member}{}{}%
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-            \item {Review applications for the Siegman international school on laser for the 2019 and 2020 editions}
+            \item {Review applications for the OSA Siegman international school on laser for the 2019 and 2020 editions}
       \end{cvitems}
     }
 }
@@ -244,8 +244,19 @@
 % =================================================
 \clearpage
 \nocite{*} 
-\section*{Complete list of publications}
 
+\section*{Optica Publishing Group Publications}
+\cventries{\cvsection{Journal}{Articles}}{
+    \printbibliography[env=bibnonum, heading=none, type=article, keyword={osa}]
+}
+\vspace{1em}
+\cventries{\cvsection{Conference}{Proceedings}}{
+    \Setmaxbibnames{3}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, keyword={osa}]
+}
+
+\clearpage
+\section*{Complete List of Publications}
 \cventries{\cvsection{Popular}{Writing}}{
     \printbibliography[env=bibnonum, heading=none, type=online]
 }
@@ -253,7 +264,7 @@
 % \cventries{\cvsection{Submitted}{Manuscripts}}{
 %     \printbibliography[keyword={submitted},env=bibnonum, heading=none]
 % }
-\vspace{1em}
+\vspace{2em}
 \cventries{\cvsection{Journal}{Articles}}{
     \printbibliography[env=bibnonum, heading=none, type=article]
 }

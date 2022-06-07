@@ -627,7 +627,7 @@
 % 	\DeclareFieldFormat[incollection]{title}{"#1"}
     % \DeclareFieldFormat[inproceedings]{title}{\textit{#1}}
     % \DeclareFieldFormat[inproceedings]{booktitle}{\textup{#1}}
-    \DeclareFieldFormat[artile, book, inproceedings]{date}{(#1)}
+    \DeclareFieldFormat[book, inproceedings]{date}{(#1)}
 	\renewcommand{\UrlFont}{\small}
 
 	\ExecuteBibliographyOptions{doi=false}
