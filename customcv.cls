@@ -127,7 +127,7 @@
 %-------------------------------------------------------------------------------
 %                Configuration for layout
 %-------------------------------------------------------------------------------
-\geometry{left=3.5cm, top=1.5cm, right=10.0cm, bottom=2.0cm, footskip=.5cm}
+\geometry{left=2cm, top=1.5cm, right=10.0cm, bottom=2.0cm, footskip=.5cm}
 \fancyhfoffset{0em}
 \renewcommand{\headrulewidth}{0pt}
 \fancyhf{}
@@ -198,11 +198,11 @@
   BoldItalicFont=*-MediumItalic,
 ]{Roboto}
 
-\newfontfamily{\FAFR}{Font Awesome 6 Free Regular}
-\newfontfamily{\FAFS}{Font Awesome 6 Free Solid}
-\newfontfamily{\FAB}{Font Awesome 6 Brands Regular}
-\def\faEmail{{\FAFR \symbol{"F0E0}}} % Email
-\def\faPhone{\FAFS \symbol{"F095}} % Phone
+% \newfontfamily{\FAFR}{Font Awesome 6 Free Regular}
+% \newfontfamily{\FAFS}{Font Awesome 6 Free Solid}
+% \newfontfamily{\FAB}{Font Awesome 6 Brands Regular}
+% \def\faEmail{{\FAFR \symbol{"F0E0}}} % Email
+% \def\faPhone{\FAFS \symbol{"F095}} % Phone
 
 \newcommand*{\footerfont}{\sourcesanspro}
 \newcommand*{\bodyfont}{\sourcesanspro}
@@ -257,6 +257,25 @@
 \newcommand*{\letternamestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\letterenclosurestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{lighttext} #1}}
 
+
+%% ---- 
+% Biblio
+
+\DeclareSortingScheme{rasha}{
+  \sort[direction=ascending]{
+    \field{year}
+    \field{entrytype}
+  }
+}
+\defbibcheck{late}{
+  \iffieldint{year}
+  {\ifnumless{\thefield{year}}{1900}
+    {\skipentry}
+    {}}
+  {\skipentry}
+}
+
+% 
 
 %-------------------------------------------------------------------------------
 %                Commands for personal information
@@ -401,8 +420,8 @@
             \begin{minipage}[t]{\addresslength}%
                 \vspace{-1.2\firstheight}
                 \headeraddressstyle{\@address}\\
-                \headersocialstyle{\faPhone~~\@mobile}\\
-                \headersocialstyle{ \href{mailto:\@email}{\faEmail~~\@email}}\\
+                \headersocialstyle{\@mobile}\\
+                \headersocialstyle{ \href{mailto:\@email}{\@email}}\\
             \end{minipage}
         }
     \end{tabular}
@@ -446,7 +465,7 @@
 }
 \newcommand{\cvsubsection}[1]{%
   \vspace{\acvSectionContentTopSkip}%
-  \vspace{-3mm}%
+  \vspace{0mm}%
   \subsectionstyle{#1}%
 }
 
@@ -465,16 +484,16 @@
 \newcommand*{\cventries}[2]{
     \begin{tcolorbox}[
       blanker,
-      width=\textwidth-2.1cm,enlarge left by=2.1cm,
+      width=\textwidth-3.1cm,enlarge left by=3.1cm,
       before skip=0pt,
-      left=0pt,right=0pt,top=0pt,bottom=0pt,
+      left=0pt,right=0pt,top=0pt,bottom=10pt,
       breakable,
     %   borderline={0.5pt}{0pt},
       overlay unbroken and first={%
-        \node[inner sep=0pt,outer sep=0pt,text width=2.1cm,
+        \node[inner sep=0pt,outer sep=0pt,text width=3.1cm,
           align=none,
           below right]
-          at ([xshift=-2.1cm]frame.north west)%
+          at ([xshift=-3.1cm]frame.north west)%
         %   [rectangle,draw]
       {%
         #1 %  <------------------------

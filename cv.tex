@@ -1,7 +1,7 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-\documentclass[11pt, letterpaper]{customcv}
-\geometry{left=1.4cm, top=1.5cm, right=1.4cm, bottom=1.8cm, showframe=false}
+\documentclass[11pt, a4paper]{customcv}
+\geometry{left=1.2cm, top=2cm, right=2cm, bottom=2cm, showframe=False}
 
 % Pick the accent color. Bunch of blue Pantone has been defined or some nice orange for the accent 
 \colorlet{awesome}{PANTONE2152C}
@@ -125,7 +125,7 @@
                 \begin{minipage}[t]{0.4\textwidth}%
                     \begin{itemize}[leftmargin=*]\scriptsize
                         \item[] Dillion Cottrill  -- \textsc{University of West Virgina} -- 2020%
-                        \item[] Kristiana Ramos  -- \textsc{U.M.D} --  2021$\rightarrow$present%
+                        \item[] Kristiana Ramos  -- \textsc{U.M.D} --  2021$\rightarrow$2022%
                     \end{itemize}%
                 \end{minipage}%
                 \begin{minipage}[t]{0.4\textwidth}%
@@ -154,18 +154,17 @@
     \setstretch{0.2}
     \begin{itemize}[leftmargin=0ex, nosep]
     \setlength\itemsep{0.25em}
-        \vspace{-1ex}
-        \item[] \subentryhindextyle{>30 peer-reviewed journal articles \flushleft}
-        \item[] \subentryhindextyle{>35 conference proceedings}
+        \vspace{1ex}
+        \item[] \subentryhindextyle{>35 peer-reviewed journal articles \flushleft}
+        \item[] \subentryhindextyle{>40 conference proceedings}
         \item[]  \subentryhindextyle{2 book chapters}
-        \item[]  \subentryhindextyle{816 citations as of 06/2022}
-        \item[]  \subentryhindextyle{h-index of 15 as of 06/2022}
-        \item[] \subentryhindextyle{h-index of 15 as of 06/2022}
+        \item[]  \subentryhindextyle{1565 citations as of 09/2023}
+        \item[]  \subentryhindextyle{h-index of 21 as of 09/2023}
     \end{itemize}
 \end{minipage}}%
 {\cventry{}{Articles}{}{}{
     \Setmaxbibnames{3}
-    \Setminbibnames{2}
+    \Setminbibnames{3}
     \printbibliography[keyword={mypaper},env=bibbullet,heading=none,type=article]
     }
 \cventry{}{Book Chapter}{}{}{
@@ -187,19 +186,22 @@
     \cventry{}{Outreach}{}{}%
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-            \item {Maintaining and updating an active \href{https://github.com/gregmoille}{github profile}} to share scripts for experiment control and in-house developed simulations tools. Combined, they account for 22 forks, 28 stars and an average of 25 unique views per week. 
+            \item {Maintaining and updating an active \href{https://github.com/gregmoille}{github profile}} to share scripts for experiment control and in-house developed simulations tools. Combined, they account for \textbf{31 forks, 51 stars and an average of 30 unique views per week. }
       \end{cvitems}
     }
+    \vspace{1ex}
     \cventry{}{Peer Reviewing}{}{}%
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
             \item {Referee for \textit{Optica, JOSA B, Optics Letters, Optics Express, OSA Continuum, Nature Communications, Physical Review Letters, Physical Review Applied, Physical Review A, Physical Review Research, Laser and Photonics Reviews,  ACS Photonics, Applied Physics Letters Photonics, Micromachine, SPIE Advanced Photonics}}
       \end{cvitems}
     }
-    \cventry{}{Review Committee Member}{}{}%
+    \vspace{1ex}
+    \cventry{}{Committee Member}{}{}%
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-            \item {Review applications for the OSA Siegman international school on laser for the 2019 and 2020 editions}
+            \item {2010-2020 --- Siegman international school: Review applications for the OSA Siegman international school on laser for the 2019 and 2020 editions}
+            \item {2023 - present --- SPIE Photonics West: program committee member for Laser Resonators, Microresonators, and Beam Control XXVI conference}
       \end{cvitems}
     }
 }
@@ -213,30 +215,31 @@
         \cvskill{Non-Linear Optics}{5}
         \cvskill{Optoelectronics}{5}
         \cvskill{Quantum Physics}{4}
-    }\hfill%
+    }\hspace{3ex}%
     \cvskillentry{Experimental Skills}{%
         \cvskill{Photonics Charac.}{5}
         \cvskill{Non-Linear Optics}{5}
         \cvskill{Radio Freq.}{4}
         \cvskill{Metrology}{3}
-    }\hfill%
+    }\hspace{3ex}%
     \cvskillentry{NanoFab}{
         \cvskill{Design Layout}{5}
         \cvskill{EBL}{4}
         \cvskill{Dy Etching}{4}
         \cvskill{Wet Etching}{4}
-        }\hfill%
+        }
+        \hspace{3ex}%
      \cvskillentry{E.M. Modeling}{
         \cvskill{Comsol}{5}
         \cvskill{Lumerical}{5}
         \cvskill{Mathematica}{3}
         \cvskill{HFSS}{3}
-    }\hfill%
+    }\hspace{14.7ex}%
     \cvskillentry{Languages}{
         \cvskill{French}{5}
         \cvskill{English}{5}
-        \cvskill{Italian}{3}
         \cvskill{Russian}{3}
+        \cvskill{Italian}{3}
         }
 }
 
@@ -245,15 +248,17 @@
 \clearpage
 \nocite{*} 
 
-\section*{Optica Publishing Group Publications}
-\cventries{\cvsection{Journal}{Articles}}{
-    \printbibliography[env=bibnonum, heading=none, type=article, keyword={osa}]
-}
-\vspace{1em}
-\cventries{\cvsection{Conference}{Proceedings}}{
-    \Setmaxbibnames{3}
-    \printbibliography[env=bibnonum, heading=none,type=inproceedings, keyword={osa}]
-}
+% \section*{Optica Publishing Group Publications}
+% \cventries{\cvsection{Journal}{Articles}}{
+%  \Setmaxbibnames{3}
+%     \printbibliography[env=bibnonum, heading=none,type=inproceedings, keyword={osa}]
+% }
+
+% \vspace{1em}
+% \cventries{\cvsection{Conference}{Proceedings}}{
+%     \Setmaxbibnames{3}
+%     \printbibliography[env=bibnonum, heading=none,type=inproceedings, keyword={osa}]
+% }
 
 \clearpage
 \section*{Complete List of Publications}
@@ -266,7 +271,7 @@
 % }
 \vspace{2em}
 \cventries{\cvsection{Journal}{Articles}}{
-    \printbibliography[env=bibnonum, heading=none, type=article]
+    \tiny\printbibliography[env=bibnonum, heading=none, type=article]
 }
 \vspace{1em}
 \cventries{\cvsection{Book}{Chapters}}{
