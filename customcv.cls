@@ -261,19 +261,23 @@
 %% ---- 
 % Biblio
 
-\DeclareSortingScheme{rasha}{
-  \sort[direction=ascending]{
-    \field{year}
-    \field{entrytype}
-  }
+\def\mblx@yearfrom{-1000}
+\def\mblx@yearto{3000}
+
+\newrobustcmd*{\setcheckfromtorange}[2]{%
+  \def\mblx@yearfrom{#1}%
+  \def\mblx@yearto{#2}%
 }
-\defbibcheck{late}{
+
+\defbibcheck{fromto}{%
   \iffieldint{year}
-  {\ifnumless{\thefield{year}}{1900}
-    {\skipentry}
-    {}}
-  {\skipentry}
-}
+    {\ifnumless{\thefield{year}}{\mblx@yearfrom}
+       {\skipentry}
+       {\ifnumgreater{\thefield{year}}{\mblx@yearto}
+          {\skipentry}
+          {}}}
+    {\skipentry}}
+
 
 % 
 
@@ -478,7 +482,7 @@
         #1
         % \end{minipage}
 }
-{\renewcommand{\arraystretch}{0}
+\renewcommand{\arraystretch}{0}
 %  === CV Entries =====
 % ===============================
 \newcommand*{\cventries}[2]{
@@ -623,6 +627,12 @@
   {\endlist}
   {\item}
   
+\newenvironment{cvlist}
+{
+  \vspace{-1ex}\begin{itemize}[leftmargin=2ex]%
+  }
+  {\end{itemize}}
+
  \defbibenvironment{bibbullet}
   {\fontsize{8pt}{1em}\bodyfontlight\upshape\color{text}
   \vspace{-1ex}\begin{itemize}[leftmargin=2ex, nosep, noitemsep]%
@@ -635,7 +645,7 @@
 	\AtEveryBibitem{\clearfield{date-added}}
 	\AtEveryBibitem{\clearfield{date-modified}}
 	\AtEveryBibitem{\clearfield{file}}
-	\AtEveryBibitem{\clearfield{number}}
+	% \AtEveryBibitem{\clearfield{number}}
 	\AtEveryBibitem{\clearfield{local-url}}
 	\AtEveryBibitem{\clearfield{uri}}
 	\DeclareFieldFormat[article, unpublished]{volume}{{#1}}
@@ -711,6 +721,40 @@
     % \usebibmacro{note}
     \descriptionstyle{\printfield{note}}
     \usebibmacro{finentry}}
+  
+
+    \DeclareBibliographyDriver{misc}{%
+    \usebibmacro{bibindex}%
+    \usebibmacro{begentry}%
+    \descriptionstyle{\usebibmacro{author/translator+others}}%
+    \setunit{\labelnamepunct}\newblock
+    \titlestyle{\itshape\usebibmacro{title}}%
+    \newunit
+    \newunit\newblock
+    \usebibmacro{byauthor}%
+    % \newunit\newblock
+    % \usebibmacro{bytranslator+others}%
+    % \newunit\newblock
+    % \printfield{version}%
+    \newunit\newblock
+    \printtext[doilink]{%
+        \journalstyle{\usebibmacro{journal+issuetitle}}%
+        \newunit
+        \usebibmacro{byeditor}%
+        \newunit
+        \newunit\newblock
+        % \usebibmacro{doi+eprint+url}%
+        % \newunit\newblock
+        % \usebibmacro{addendum+pubstate}%
+        \setunit{\bibpagerefpunct}
+        \newblock
+    }%
+    % \newunit%
+    % \usebibmacro{pageref}
+    % \usebibmacro{note}
+    % \descriptionstyle{\printfield{note}}
+    % \usebibmacro{finentry}
+    }
     
     
     
@@ -828,16 +872,16 @@
     \usebibmacro{pageref}
     \usebibmacro{finentry}}
 
-  \DeclareBibliographyDriver{misc}{%
-    \usebibmacro{bibindex}%
-    \usebibmacro{begentry}%
-    \setunit{\labelnamepunct}\newblock
-    \printtext[urllink]{\usebibmacro{title}}
-    \newunit%
-    \usebibmacro{publisher+location+date}
-    \newunit%
-    \usebibmacro{pageref}
-    \usebibmacro{finentry}}
+  % \DeclareBibliographyDriver{misc}{%
+  %   \usebibmacro{bibindex}%
+  %   \usebibmacro{begentry}%
+  %   \setunit{\labelnamepunct}\newblock
+  %   \printtext[urllink]{\usebibmacro{title}}
+  %   \newunit%
+  %   \usebibmacro{publisher+location+date}
+  %   \newunit%
+  %   \usebibmacro{pageref}
+  %   \usebibmacro{finentry}}
 
   \DeclareBibliographyDriver{report}{%
     \usebibmacro{bibindex}%
