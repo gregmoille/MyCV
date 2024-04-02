@@ -1,27 +1,17 @@
-%% Start of file `awesome-cv.cls'.
-% Awesome CV Class File
+%% Start of file `Customcv.cls'.
+% Gregory Moille -- 2020
+% --------------------------------------
+% based on the "Awesome CV Class" File and largely modified
 %
 % This class has been downloaded from:
 % https://github.com/posquit0/Awesome-CV
-%
-% Author:
-% Claud D. Park <posquit0.bj@gmail.com>
-% http://www.posquit0.com
-%
-% Notes:
-% 1) This class file defines the structure and layout of the template file (cv.tex, resume.tex).
-% 2) It has been written in such a way that under most circumstances you
-% should not need to edit it.
-%
-% Class license:
-% LPPL v1.3c (http://www.latex-project.org/lppl)
-%
+
 
 
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
-\ProvidesClass{awesome-cv}[2017/02/05 v1.6.1 Awesome Curriculum Vitae Class]
+\ProvidesClass{customcv}
 \NeedsTeXFormat{LaTeX2e}
 
 
@@ -46,52 +36,84 @@
 %-------------------------------------------------------------------------------
 %                3rd party packages
 %-------------------------------------------------------------------------------
-% Needed to make fixed length table
 \RequirePackage{array}
-% Needed to handle list environment
 \RequirePackage{enumitem}
-% Needed to handle text alignment
 \RequirePackage{ragged2e}
-% Needed to configure page layout
 \RequirePackage{geometry}
-% Needed to make header & footer effeciently
 \RequirePackage{fancyhdr}
-% Needed to manage colors
 \RequirePackage{xcolor}
-% Needed to use \ifxetex-\else-\fi statement
 \RequirePackage{ifxetex}
-% Needed to use \if-\then-\else statement
 \RequirePackage{xifthen}
-% Needed to use a toolbox of programming tools
 \RequirePackage{etoolbox}
-% Needed to change line spacing in specific environment
 \RequirePackage{setspace}
-% Needed to manage fonts
 \RequirePackage[quiet]{fontspec}
-% To support LaTeX quoting style
 \defaultfontfeatures{Ligatures=TeX}
-% Needed to manage math fonts
 \RequirePackage{unicode-math}
-% Needed to use icons from font-awesome
-% (https://github.com/posquit0/latex-fontawesome)
-\RequirePackage{fontawesome}
+% \RequirePackage{fontawesome}
 \RequirePackage[default,opentype]{sourcesanspro}
-% Needed for the photo ID
-\RequirePackage[skins]{tcolorbox}
-% Needed to deal a paragraphs
+\RequirePackage[skins,,breakable]{tcolorbox}
 \RequirePackage{parskip}
 \RequirePackage{environ}
-% Needed to deal hyperlink
 \RequirePackage{xargs}
 \RequirePackage{makecell}
-\RequirePackage{tabularx,booktabs,ragged2e}
+\RequirePackage{tabularx,booktabs}
+\RequirePackage{longtable}
 \RequirePackage[hidelinks,unicode]{hyperref}
+\RequirePackage[natbib=false,
+            backend=biber,%bibtex
+			maxcitenames=99,
+			mincitenames=99,
+			maxbibnames=99,
+			minbibnames=1,
+% 			giveinits=true,
+			doi=true,
+			url=false,
+			isbn=true,
+      firstinits=true,
+			abbreviate=true,
+			useauthor=true,
+			sorting=ymdt,
+			sortcites=true,
+            autocite=plain,
+            style = numeric-comp,
+            % backrefstyle=two,
+			bibencoding=utf8]{biblatex}
 \hypersetup{%
   pdftitle={},
   pdfauthor={},
   pdfsubject={},
   pdfkeywords={}
 }
+
+\DeclareSortingTemplate{ymdt}{
+  \sort{
+    \field{presort}
+  }
+  \sort[final]{
+    \field{sortkey}
+  }
+  \sort[direction=descending]{
+    \field{sortyear}
+    \field{year}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{month}
+    \literal{00}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{day}
+    \literal{00}
+  }
+  \sort{
+    \field{sorttitle}
+  }
+  \sort{
+    \field[padside=left,padwidth=4,padchar=0]{volume}
+    \literal{0000}
+  }
+}
+
+
 % \RequirePackage{tabularx}
 
 %-------------------------------------------------------------------------------
@@ -105,18 +127,10 @@
 %-------------------------------------------------------------------------------
 %                Configuration for layout
 %-------------------------------------------------------------------------------
-%% Page Layout
-% Configure page margins with geometry
-\geometry{left=3.5cm, top=1.5cm, right=10.0cm, bottom=2.0cm, footskip=.5cm}
-
-%% Header & Footer
-% Set offset to each header and footer
+\geometry{left=2cm, top=1.5cm, right=10.0cm, bottom=2.0cm, footskip=.5cm}
 \fancyhfoffset{0em}
-% Remove head rule
 \renewcommand{\headrulewidth}{0pt}
-% Clear all header & footer fields
 \fancyhf{}
-% Enable if you want to make header or footer using fancyhdr
 \pagestyle{fancy}
 
 
@@ -131,6 +145,14 @@
 \definecolor{lightgray}{HTML}{999999}
 \definecolor{bluegray}{HTML}{3f709a}
 \definecolor{orangepantone}{HTML}{FF8F1C}
+\definecolor{PANTONE19-4052}{HTML}{0F4C81}
+\definecolor{PANTONE2152C}{HTML}{1A658F}
+\definecolor{PANTONE2180C}{HTML}{3F6C7D}
+\definecolor{PANTONE3541C}{HTML}{00939D}
+\definecolor{PANTONE632C}{HTML}{0093B2}
+\definecolor{PANTONE631C}{HTML}{3EB1C8}
+
+
 % Basic colors
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
@@ -157,18 +179,9 @@
 \newbool{acvSectionColorHighlight}
 \setbool{acvSectionColorHighlight}{true}
 
-% Awesome section color
-% \def\@sectioncolor#1#2#3{%
-%   \ifbool{acvSectionColorHighlight}{{\color{bluegray}#1#2#3}}{#1#2#3}%
-% }
-
-
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
-% Set the FontAwesome font to be up-to-date.
-% \newfontfamily\FA[Path=\@fontdir]{FontAwesome}
-% Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=\@fontdir,
   UprightFont=*-Regular,
@@ -185,6 +198,12 @@
   BoldItalicFont=*-MediumItalic,
 ]{Roboto}
 
+% \newfontfamily{\FAFR}{Font Awesome 6 Free Regular}
+% \newfontfamily{\FAFS}{Font Awesome 6 Free Solid}
+% \newfontfamily{\FAB}{Font Awesome 6 Brands Regular}
+% \def\faEmail{{\FAFR \symbol{"F0E0}}} % Email
+% \def\faPhone{\FAFS \symbol{"F095}} % Phone
+
 \newcommand*{\footerfont}{\sourcesanspro}
 \newcommand*{\bodyfont}{\sourcesanspro}
 \newcommand*{\bodyfontlight}{\sourcesansprolight}
@@ -192,8 +211,6 @@
 %-------------------------------------------------------------------------------
 %                Configuration for styles
 %-------------------------------------------------------------------------------
-% Configure styles for each CV elements
-% For fundamental structures
 \newcommand*{\headerfirstnamestyle}[1]{{\fontsize{26pt}{1em}\headerfontlight\scshape\color{awesome} #1}}
 \newcommand*{\headerlastnamestyle}[1]{{\fontsize{26pt}{1em}\headerfont\scshape\color{text}#1}}
 \newcommand*{\headerpositionstyle}[1]{{\fontsize{7.6pt}{1em}\bodyfont\scshape\color{awesome} #1}}
@@ -216,6 +233,7 @@
 \newcommand*{\subentrytitlestyle}[1]{{\fontsize{8pt}{1em}\bodyfont\mdseries\color{graytext} #1}}
 \newcommand*{\subentrypositionstyle}[1]{{\fontsize{7pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\subentrydatestyle}[1]{{\fontsize{7pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
+\newcommand*{\subentryhindextyle}[1]{{\fontsize{6pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\subentrylocationstyle}[1]{{\fontsize{7pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
 \newcommand*{\subdescriptionstyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
@@ -240,6 +258,29 @@
 \newcommand*{\letterenclosurestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{lighttext} #1}}
 
 
+%% ---- 
+% Biblio
+
+\def\mblx@yearfrom{-1000}
+\def\mblx@yearto{3000}
+
+\newrobustcmd*{\setcheckfromtorange}[2]{%
+  \def\mblx@yearfrom{#1}%
+  \def\mblx@yearto{#2}%
+}
+
+\defbibcheck{fromto}{%
+  \iffieldint{year}
+    {\ifnumless{\thefield{year}}{\mblx@yearfrom}
+       {\skipentry}
+       {\ifnumgreater{\thefield{year}}{\mblx@yearto}
+          {\skipentry}
+          {}}}
+    {\skipentry}}
+
+
+% 
+
 %-------------------------------------------------------------------------------
 %                Commands for personal information
 %-------------------------------------------------------------------------------
@@ -263,6 +304,7 @@
 \newcommand*{\firstname}[1]{\def\@firstname{#1}}
 \newcommand*{\lastname}[1]{\def\@lastname{#1}}
 \newcommand*{\familyname}[1]{\def\@lastname{#1}}
+\newcommand*{\researchinterests}[1]{\def\@researchinterests{#1}}
 \def\@familyname{\@lastname}
 
 
@@ -368,8 +410,8 @@
     \newlength{\firstheight}%
     \settowidth{\longword}{\headerfirstnamestyle{\@firstname}}%
     \settowidth{\addresslength}{\headeraddressstyle{\@address}}%
-    \settoheight{\firstheight}{\headerfirstnamestyle{\@firstname}}%
-    \begin{tabular}[t]{l  l}
+    \settoheight{\firstheight}{\headerfirstnamestyle{\@firstname}}
+    \begin{tabular}[t]{@{\hskip0pt}l @{\hskip0pt} l}
     \resizebox*{!}{2\firstheight + 1.5ex}{%
         \null\hspace{-1.5pt}\begin{minipage}[t]{\longword}%
              \resizebox*{\longword}{!}{\headerfirstnamestyle{\@firstname}}
@@ -382,13 +424,26 @@
             \begin{minipage}[t]{\addresslength}%
                 \vspace{-1.2\firstheight}
                 \headeraddressstyle{\@address}\\
-                \headersocialstyle{\faMobile~~\@mobile}\\
-                \headersocialstyle{ \href{mailto:\@email}{\faEnvelope~~\@email}}\\
+                \headersocialstyle{\@mobile}\\
+                \headersocialstyle{ \href{mailto:\@email}{\@email}}\\
             \end{minipage}
         }
     \end{tabular}
+    \hfill
+    \begin{tabular}[t]{@{\hskip0pt}l @{\hskip0pt} r}
+    %   \vspace{-1.2\firstheight}
+        \begin{minipage}[t]{0.3\textwidth}%
+                \vspace{-1.1\firstheight}
+                \headeraddressstyle{\textsc{Research Interests:}}\\
+                \headersocialstyle{\@researchinterests}\\
+        \end{minipage}
+       
+            % \headersocialstyle{ \href{mailto:\@email}{\faEnvelope~~\@email}}\\
+      
+    \end{tabular}
     \vskip -2ex
-    \hspace{\tablemargin}\rule{\addresslength}{0.25pt}
+    \rule{\addresslength}{0.25pt}
+    \vskip 0.35cm
 }
 
 %  === FOOTER =====
@@ -408,59 +463,105 @@
 \newcommand{\cvsection}[2]{%
     \ifempty{#2}{%
         \sectionstyle{#1}%
-    }{\sectionstyle{#1} 
+    }{\sectionstyle{#1} \\
       \sectionstyle{#2}
     }
 }
 \newcommand{\cvsubsection}[1]{%
   \vspace{\acvSectionContentTopSkip}%
-  \vspace{-3mm}%
+  \vspace{0mm}%
   \subsectionstyle{#1}%
 }
 
 %  === PARAGRAPH =====
 % ================================
-\newenvironment{cvparagraph}{%
-      \null
-          \paragraphstyle
-        }{%
-\par%
-% \vspace{2mm}%
+\newcommand*{\cvparagraph}[1]{%
+      &%
+        % \begin{minipage}[t]{\textwidth - 2cm}
+        %   \paragraphstyle{#1}
+        #1
+        % \end{minipage}
 }
-\def\arraystretch{0.45}
+\renewcommand{\arraystretch}{0}
 %  === CV Entries =====
-% ================================
-\newenvironment{cventries}{%
-      \begin{tabular}[t]{|>{\raggedright}p{2.1cm}@{\hskip0pt}  |p{\textwidth-2.1cm}|}
-    }{%
-      \end{tabular}
+% ===============================
+\newcommand*{\cventries}[2]{
+    \begin{tcolorbox}[
+      blanker,
+      width=\textwidth-3.1cm,enlarge left by=3.1cm,
+      before skip=0pt,
+      left=0pt,right=0pt,top=0pt,bottom=10pt,
+      breakable,
+    %   borderline={0.5pt}{0pt},
+      overlay unbroken and first={%
+        \node[inner sep=0pt,outer sep=0pt,text width=3.1cm,
+          align=none,
+          below right]
+          at ([xshift=-3.1cm]frame.north west)%
+        %   [rectangle,draw]
+      {%
+        #1 %  <------------------------
+      };}]
+    #2
+    \end{tcolorbox}
 }
 
 \newcommand*{\cventry}[5]{%
-&\hspace{-\tablemargin}%
-\begin{tabular}[t]{p{\textwidth - 2cm - 3cm } p{3.1cm} }%
-    \ifempty{#1}{\entrytitlestyle{#2}\\}{
+\begin{tabular}[t]{@{\hskip0pt}p{\textwidth - 2.4cm - 1pt} @{\hskip0pt} @{\hskip0pt}p{2.4cm}@{\hskip0pt}}%
+    \ifempty{#1}{\entrytitlestyle{#2}\\[2ex]}{
         \ifempty{#2#3}%
-          {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-          {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
-          \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+          {\entrypositionstyle{#1} & \entrydatestyle{#4} \\[1ex]}
+          {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\[2.25ex]
+          \entrypositionstyle{#1} & \entrydatestyle{#4} \\[2ex]}
           }\\
-    \multicolumn{2}{L{\textwidth-2.1cm-0.25cm}}{\descriptionstyle{#5}}\hfill
-  \end{tabular}%
-  \\
+    \multicolumn{2}{@{\hskip0pt}@{\hskip0pt} L{\textwidth}@{\hskip0pt}@{\hskip0pt} }{\descriptionstyle{#5}}\hfill
+  \end{tabular}\\\vskip-4ex%
+}
+
+\newcommand*{\cvsubentry}[2]{
+    \begin{tabular}[t]{@{\hskip0pt}p{3cm}@{\hskip0pt}}
+        \entrytitlestyle{#1}\\[3ex]
+        \descriptionstyle{#2}
+    \end{tabular}
+}
+
+
+% === Education =====
+% ================================
+\newcommand*{\cveducations}[1]{
+    #1 %
+    \vspace{2ex}
+}
+\newcommand*{\cveducation}[4]{%
+\linespread{0.6}\selectfont
+    \begin{tabular}[t]{@{\hskip0pt}>{\raggedright}p{3.1cm}@{\hskip0pt} @{\hskip0pt}p{2.4cm}@{\hskip0pt}}%
+        \entrytitlestyle{#1} & \entrylocationstyle{#3}\\[2ex]
+        \entrypositionstyle{#2} & \entrydatestyle{#4}
+    \end{tabular}\hspace{-2.1pt}%
 }
 
 % === Education =====
 % ================================
-\newcommand*{\cveducations}[1]{%
-     &\hspace{-\tablemargin}#1
-    }
-\newcommand*{\cveducation}[4]{%
-    \begin{tabular}[t]{|l@{\hskip3pt} | @{\hskip3pt}l@{\hskip3pt} | }%
-        \multicolumn{2}{l}{\entrytitlestyle{#1}}\\
-        % \entrypositionstyle{#2}
-    \end{tabular}\hfill
+\newcommand*{\cvacademics}[1]{
+    #1 %
+    \vspace{2ex}
 }
+\newcommand*{\cvacademic}[2]{%
+\linespread{0.6}\selectfont
+    \begin{tabular}[t]{@{\hskip0pt}>{\raggedright}p{7.8cm}@{\hskip0pt}}%
+        \entrytitlestyle{#1}\\[1ex]
+        #2
+    \end{tabular}\hspace{-4.1pt}%
+}
+
+\newcommand*{\cvacademicentry}[4]{%
+\linespread{0.6}\selectfont
+    \begin{tabular}[t]{@{\hskip0pt}>{\raggedright}p{2cm}@{\hskip0pt}@{\hskip0pt}>{\raggedright}p{2.4cm}@{\hskip0pt}@{\hskip0pt}>{\raggedright}p{1cm}@{\hskip0pt}@{\hskip0pt}>{\raggedright}p{2.4cm}@{\hskip0pt}}%
+        \descriptionstyle{#1} &\descriptionstyle{#2} &\descriptionstyle{#3} &\entrydatestyle{#4} 
+    \end{tabular}\hspace{-4.1pt}%
+}
+
+
 % === SKILLS =====
 % ================================
 \newcommand*{\cvskills}[1]{%
@@ -470,17 +571,15 @@
 }
 \newcommand*{\cvskillentry}[2]{%
     \begin{tabular}[t]{@{\hskip0pt}l@{\hskip0pt}}%
-        \entrytitlestyle{#1}\\
-        \vspace{-0.5ex}
-        \\
-        \begin{tabular}[t]{@{\hskip0pt}l@{\hskip5pt} @{\hskip0pt}p{3.4em}@{\hskip0pt}}
+        \entrytitlestyle{#1}\\[1ex]
+        \begin{tabular}[b]{@{\hskip0pt}l@{\hskip0pt}@{\hskip0pt}p{3.4em}@{\hskip0pt}}
             #2
         \end{tabular}
-  \end{tabular}\hfill
+  \end{tabular}
 }
 
 \newcommand*{\cvskill}[2]{
-    \descriptionstyle{#1} & \grade{#2} \\
+    \descriptionstyle{#1} & \grade{#2}\\[0.75ex]
 }
 \newcommand*{\grade}[1]{%
     \begin{tikzpicture}
@@ -498,15 +597,301 @@
 }
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
-  \vspace{-4.0mm}
-  \begin{justify}
+  \vspace{-1ex}
+%   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
   \end{itemize}
-  \end{justify}
-  \vspace{-4.0mm}
+%   \end{justify}
+%   \vspace{-1ex}
 }
 
+% darktext
+% graytext
+% lightext
+% ==== Bibliography style === 
+% ======================================
+\newcommand*{\authorliststyle}[1]{\fontsize{9pt}{1em}\upshape\color{text}{#1}}
+\newcommand*{\titlestyle}[1]{\fontsize{9pt}{1em}\itshape\color{graytext}{#1}}
+\newcommand*{\journalstyle}[1]{\fontsize{9pt}{1em}\bodyfontlight\scshape\color{text}{#1}}
 
+\defbibenvironment{bibnonum}
+  {\list
+     {}
+     {\setlength{\leftmargin}{\bibhang}%
+      \setlength{\itemindent}{-\leftmargin}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}}
+  {\endlist}
+  {\item}
+  
+\newenvironment{cvlist}
+{
+  \vspace{-1ex}\begin{itemize}[leftmargin=2ex]%
+  }
+  {\end{itemize}}
+
+ \defbibenvironment{bibbullet}
+  {\fontsize{8pt}{1em}\bodyfontlight\upshape\color{text}
+  \vspace{-1ex}\begin{itemize}[leftmargin=2ex, nosep, noitemsep]%
+  }
+  {\end{itemize}}
+  {\item}
+
+\AtEveryBibitem{\clearfield{month}}
+	\AtEveryBibitem{\clearfield{read}}
+	\AtEveryBibitem{\clearfield{date-added}}
+	\AtEveryBibitem{\clearfield{date-modified}}
+	\AtEveryBibitem{\clearfield{file}}
+	% \AtEveryBibitem{\clearfield{number}}
+	\AtEveryBibitem{\clearfield{local-url}}
+	\AtEveryBibitem{\clearfield{uri}}
+	\DeclareFieldFormat[article, unpublished]{volume}{{#1}}
+	\DeclareFieldFormat[article, unpublished]{pages}{#1}
+    \DeclareFieldFormat[article, unpublished]{journaltitle}{#1}
+    \DeclareFieldFormat[article, unpublished]{title}{#1}
+% 	\DeclareFieldFormat[article,thesis]{date}{#1}
+% 	\DeclareFieldFormat[incollection]{title}{"#1"}
+    % \DeclareFieldFormat[inproceedings]{title}{\textit{#1}}
+    % \DeclareFieldFormat[inproceedings]{booktitle}{\textup{#1}}
+    \DeclareFieldFormat[book, inproceedings]{date}{(#1)}
+	\renewcommand{\UrlFont}{\small}
+
+	\ExecuteBibliographyOptions{doi=false}
+	\ExecuteBibliographyOptions{doi=false}
+	\DeclareFieldFormat{doilink}{%
+	\iffieldundef{doi}{#1}%
+	{\href{http://dx.doi.org/\thefield{doi}}{#1}}}
+
+	\DeclareFieldFormat{urllink}{%
+	\iffieldundef{url}{#1}%
+	{\href{\thefield{url}}{#1}}}
+
+% \DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}
+%   \newrobustcmd*{\mkbibdesc}[1]{%
+%   \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
+  
+ \DeclareBibliographyDriver{book}{%
+    \usebibmacro{bibindex}%
+    \usebibmacro{begentry}%
+    \usebibmacro{author/translator+others}%
+    \setunit{\labelnamepunct}\newblock
+    \printtext[urllink]{%
+    \usebibmacro{title}%
+    }%
+    \newunit%
+    \setunit{\bibpagerefpunct}\newblock
+    \usebibmacro{note+pages}
+    \newunit%
+    \usebibmacro{byeditor+others}
+    \usebibmacro{publisher+location+date}%
+    \newunit%
+    \usebibmacro{pageref}
+    \usebibmacro{finentry}}
+
+  \DeclareBibliographyDriver{article}{%
+    \usebibmacro{bibindex}%
+    \usebibmacro{begentry}%
+    \descriptionstyle{\usebibmacro{author/translator+others}}%
+    \setunit{\labelnamepunct}\newblock
+    \titlestyle{\itshape\usebibmacro{title}}%
+    \newunit
+    \newunit\newblock
+    \usebibmacro{byauthor}%
+    \newunit\newblock
+    \usebibmacro{bytranslator+others}%
+    \newunit\newblock
+    \printfield{version}%
+    \newunit\newblock
+    \printtext[doilink]{%
+        \journalstyle{\usebibmacro{journal+issuetitle}}%
+        \newunit
+        \usebibmacro{byeditor+others}%
+        \newunit
+        \newunit\newblock
+        \usebibmacro{doi+eprint+url}%
+        \newunit\newblock
+        % \usebibmacro{addendum+pubstate}%
+        \setunit{\bibpagerefpunct}\newblock
+    }%
+    % \newunit%
+    % \usebibmacro{pageref}
+    % \usebibmacro{note}
+    \descriptionstyle{\printfield{note}}
+    \usebibmacro{finentry}}
+  
+
+    \DeclareBibliographyDriver{misc}{%
+    \usebibmacro{bibindex}%
+    \usebibmacro{begentry}%
+    \descriptionstyle{\usebibmacro{author/translator+others}}%
+    \setunit{\labelnamepunct}\newblock
+    \titlestyle{\itshape\usebibmacro{title}}%
+    \newunit
+    \newunit\newblock
+    \usebibmacro{byauthor}%
+    % \newunit\newblock
+    % \usebibmacro{bytranslator+others}%
+    % \newunit\newblock
+    % \printfield{version}%
+    \newunit\newblock
+    \printtext[doilink]{%
+        \journalstyle{\usebibmacro{journal+issuetitle}}%
+        \newunit
+        \usebibmacro{byeditor}%
+        \newunit
+        \newunit\newblock
+        % \usebibmacro{doi+eprint+url}%
+        % \newunit\newblock
+        % \usebibmacro{addendum+pubstate}%
+        \setunit{\bibpagerefpunct}
+        \newblock
+    }%
+    % \newunit%
+    % \usebibmacro{pageref}
+    % \usebibmacro{note}
+    % \descriptionstyle{\printfield{note}}
+    % \usebibmacro{finentry}
+    }
+    
+    
+    
+  \DeclareBibliographyDriver{unpublished}{%
+    \usebibmacro{bibindex}%
+    \usebibmacro{begentry}%
+    \descriptionstyle{\usebibmacro{author/translator+others}}%
+    \setunit{\labelnamepunct}\newblock
+    \titlestyle{\itshape\usebibmacro{title}}%
+    \newunit
+    \newunit\newblock
+    \usebibmacro{byauthor}%
+    \newunit\newblock
+    \usebibmacro{bytranslator+others}%
+    \newunit\newblock
+    \printfield{version}%
+    \newunit\newblock
+    \printtext[doilink]{%
+    \journalstyle{\usebibmacro{journal}}%
+    \newunit
+    \usebibmacro{byeditor+others}%
+    \newunit
+    \newunit\newblock
+    \usebibmacro{doi+eprint+url}%
+    \newunit\newblock
+    % \usebibmacro{addendum+pubstate}%
+    \setunit{\bibpagerefpunct}\newblock
+    }%
+    \newunit%
+    \usebibmacro{pageref}
+    % \usebibmacro{note}
+    \descriptionstyle{\printfield{note}}
+    \usebibmacro{finentry}}
+
+ \DeclareBibliographyDriver{online}{%
+    \usebibmacro{bibindex}%
+    \usebibmacro{begentry}%
+    \descriptionstyle{\usebibmacro{author/translator+others}}%
+    \setunit{\labelnamepunct}\newblock
+    \titlestyle{\itshape\usebibmacro{title}}%
+    \newunit
+    \newunit\newblock
+    \usebibmacro{byauthor}%
+    \newunit\newblock
+    \usebibmacro{bytranslator+others}%
+    \newunit\newblock
+    \printfield{version}%
+    \newunit\newblock
+    \printtext[doilink]{%
+    \journalstyle{\usebibmacro{journal+issuetitle}}%
+    \newunit
+    \usebibmacro{byeditor+others}%
+    \newunit
+    \newunit\newblock
+    \usebibmacro{doi+eprint+url}%
+    \printtext[urllink]{\usebibmacro{url}}
+    \newunit\newblock
+    % \usebibmacro{addendum+pubstate}%
+    \setunit{\bibpagerefpunct}\newblock
+    }%
+    \newunit%
+    \usebibmacro{pageref}
+    % \usebibmacro{note}
+    \descriptionstyle{\printfield{note}}
+    \usebibmacro{finentry}}
+
+  \DeclareBibliographyDriver{inproceedings}{%
+    \usebibmacro{bibindex}%
+    \usebibmacro{begentry}%
+    \descriptionstyle{\usebibmacro{author/translator+others}}%
+    \setunit{\labelnamepunct}\newblock
+    \titlestyle{\itshape\usebibmacro{title}\newblock}
+    \printtext[urllink]{%
+    \descriptionstyle{\usebibmacro{booktitle}}%
+    \descriptionstyle{\usebibmacro{date}}%
+    }%
+    \newunit%
+    \setunit{\bibpagerefpunct}\newblock
+    \newunit%
+   \usebibmacro{byeditor+others}
+    \newunit%
+    \usebibmacro{pageref}
+    \usebibmacro{finentry}}
+
+  \DeclareBibliographyDriver{incollection}{%
+    \usebibmacro{bibindex}%
+    \usebibmacro{begentry}%
+    \descriptionstyle{\usebibmacro{author/translator+others}}%
+    \setunit{\labelnamepunct}\newblock
+    \printtext[urllink]{%
+    \titlestyle{\usebibmacro{maintitle+booktitle}}%
+    }%
+    \newunit%
+    \titlestyle{\usebibmacro{title}}%
+    \setunit{\bibpagerefpunct}\newblock
+    \usebibmacro{note+pages}
+    \newunit%
+    \descriptionstyle{\usebibmacro{publisher+location+date}}
+    \newunit%
+    \newunit%
+    \usebibmacro{pageref}
+    \usebibmacro{finentry}}
+
+  \DeclareBibliographyDriver{thesis}{%
+    \usebibmacro{bibindex}%
+    \usebibmacro{begentry}%
+    \descriptionstyle{\usebibmacro{author/translator+others}}%
+    \setunit{\labelnamepunct}\newblock
+    \titlestyle{\printtext[urllink]{\usebibmacro{title}}}
+    \newunit%
+    \usebibmacro{note+pages}
+    \descriptionstyle{PhD Thesis}
+    \descriptionstyle{\usebibmacro{date}}%
+    \newunit%
+    \usebibmacro{pageref}
+    \usebibmacro{finentry}}
+
+  % \DeclareBibliographyDriver{misc}{%
+  %   \usebibmacro{bibindex}%
+  %   \usebibmacro{begentry}%
+  %   \setunit{\labelnamepunct}\newblock
+  %   \printtext[urllink]{\usebibmacro{title}}
+  %   \newunit%
+  %   \usebibmacro{publisher+location+date}
+  %   \newunit%
+  %   \usebibmacro{pageref}
+  %   \usebibmacro{finentry}}
+
+  \DeclareBibliographyDriver{report}{%
+    \usebibmacro{bibindex}%
+    \usebibmacro{begentry}%
+    \descriptionstyle{\usebibmacro{author/translator+others}}%
+    \setunit{\labelnamepunct}\newblock
+    \titlestyle{\printtext[urllink]{\usebibmacro{title}}}
+    \newunit%
+    \descriptionstyle{Tech. Report}
+    \descriptionstyle{\usebibmacro{publisher+location+date}}
+    \newunit%
+    \usebibmacro{pageref}
+    \usebibmacro{finentry}}

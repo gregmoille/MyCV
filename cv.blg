@@ -1,29 +1,21 @@
-[0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is 'cv.blg'
-[119] biber-darwin:322> INFO - === Wed Dec  2, 2020, 12:30:46
-[199] Biber.pm:415> INFO - Reading 'cv.bcf'
-[387] Biber.pm:940> INFO - Using all citekeys in bib section 0
-[422] Biber.pm:4256> INFO - Processing section 0
-[423] Utils.pm:75> INFO - Globbing data source 'MyPapers.bib'
-[423] Utils.pm:91> INFO - Globbed data source 'MyPapers.bib' to MyPapers.bib
-[435] Biber.pm:4455> INFO - Looking for bibtex format file 'MyPapers.bib' for section 0
-[501] bibtex.pm:1653> INFO - LaTeX decoding ...
-[656] bibtex.pm:1471> INFO - Found BibTeX data source 'MyPapers.bib'
-[657] Utils.pm:304> WARN - Duplicate entry key: 'han2015high' in file 'MyPapers.bib', skipping ...
-[659] Utils.pm:304> WARN - Duplicate entry key: 'combrie2017comb' in file 'MyPapers.bib', skipping ...
-[661] Utils.pm:304> WARN - Duplicate entry key: 'lu2019efficient' in file 'MyPapers.bib', skipping ...
-[661] Utils.pm:304> WARN - Duplicate entry key: 'moille2019broadband' in file 'MyPapers.bib', skipping ...
-[661] Utils.pm:304> WARN - Duplicate entry key: 'moille2019pylle' in file 'MyPapers.bib', skipping ...
-[663] Utils.pm:304> WARN - Duplicate entry key: 'moille2020dissipative' in file 'MyPapers.bib', skipping ...
-[663] Utils.pm:304> WARN - Duplicate entry key: 'moille2020dissipative' in file 'MyPapers.bib', skipping ...
-[663] Utils.pm:304> WARN - Duplicate entry key: 'lu2020efficient' in file 'MyPapers.bib', skipping ...
-[664] Utils.pm:304> WARN - Duplicate entry key: 'yu2020spontaneous' in file 'MyPapers.bib', skipping ...
-[664] Utils.pm:304> WARN - Duplicate entry key: 'lu2020efficient' in file 'MyPapers.bib', skipping ...
-[665] Utils.pm:304> WARN - Duplicate entry key: 'lu2020efficient' in file 'MyPapers.bib', skipping ...
-[1516] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1516] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1516] Biber.pm:4084> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
-[1516] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[1605] bbl.pm:652> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
-[1680] bbl.pm:755> INFO - Output to cv.bbl
-[1703] Biber.pm:128> INFO - WARNINGS: 11
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'cv.blg'
+[51] biber-darwin:340> INFO - === Sat Feb 17, 2024, 18:53:31
+[64] Biber.pm:419> INFO - Reading 'cv.bcf'
+[124] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[135] Biber.pm:4419> INFO - Processing section 0
+[142] Biber.pm:4610> INFO - Looking for bibtex file 'Papers.bib' for section 0
+[145] bibtex.pm:1713> INFO - LaTeX decoding ...
+[175] bibtex.pm:1519> INFO - Found BibTeX data source 'Papers.bib'
+[457] Biber.pm:4610> INFO - Looking for bibtex file 'Conference.bib' for section 0
+[460] bibtex.pm:1713> INFO - LaTeX decoding ...
+[490] bibtex.pm:1519> INFO - Found BibTeX data source 'Conference.bib'
+[779] Biber.pm:4610> INFO - Looking for bibtex file 'Others.bib' for section 0
+[780] bibtex.pm:1713> INFO - LaTeX decoding ...
+[783] bibtex.pm:1519> INFO - Found BibTeX data source 'Others.bib'
+[889] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[889] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[889] Biber.pm:4239> INFO - Sorting list 'ymdt/global//global/global' of type 'entry' with template 'ymdt' and locale 'en-US'
+[889] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[937] bbl.pm:660> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[1026] bbl.pm:763> INFO - Output to cv.bbl

@@ -1,39 +1,27 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
+\documentclass[11pt, a4paper]{customcv}
+\geometry{left=1.2cm, top=2cm, right=2cm, bottom=2cm, showframe=False}
 
-\documentclass[11pt, letterpaper]{awesome-cv}
-\usepackage{fontspec}
-\usepackage{fontawesome}
-\geometry{left=1cm, top=.8cm, right=2cm, bottom=1.8cm, footskip=.5cm}
-
-\colorlet{awesome}{orangepantone}
+% Pick the accent color. Bunch of blue Pantone has been defined or some nice orange for the accent 
+\colorlet{awesome}{PANTONE2152C}
 \setbool{acvSectionColorHighlight}{true}
 
 % == HEADER ==
 \name{Gregory}{Moille}
-\address{3040 Idaho Ave NW, Apt 423\\Washington, DC, 20016 - U.S.A}
-\mobile{(+1)202-320-0113}
+\address{3900 Cathedral Ave NW, Apt 606a\\Washington, DC, 20016 - U.S.A}
+\mobile{(+1) 202-320-0113}
 \email{gmoille@umd.edu}
 \github{gregmoille}
-\googlescholar{fBdsmYAAAAJ&hl}{Google Scholar}
-%\researchsummary{}
-\usepackage[backref=true,                %
-            hyperref=true,               %
-            firstinits=true,             %
-            indexing=true,               %
-            url=false,                   %
-            style=alphabetic,            %  style=debug, alphabetic
-            backend=biber,               %
-            doi=false,
-            texencoding=utf8,
-            bibencoding=utf8]{biblatex}
-\addbibresource{MyPapers.bib}
-% \bibliography{MyPapers}
+\researchinterests{Non-linear Optics; Photonics; Dissipative Kerr Soliton; Quantum Optics}
+\addbibresource{Papers.bib}
+\addbibresource{Conference.bib}
+\addbibresource{Others.bib}
+\makeatletter
+\newcommand\Setmaxbibnames[1]{\renewcommand\blx@maxbibnames{#1}}
+\newcommand\Setminbibnames[1]{\renewcommand\blx@minbibnames{#1}}
+\makeatletter
 
-%-------------------------------------------------------------------------------
-
-% \defaultfontfeatures{Path = ./fonts/]}
-% \fontdir[fonts/]
 \begin{document}
 
 \makecvheader
@@ -44,176 +32,380 @@
 
 % == EDUCATION ==
 % =================================================
-% \begin{cventries}%
-%     \cvsection{Education}{test}%
-%     \cveducations{%
-%         \cveducation%
-%             {Ph.D.} % Degree
-%             {Paris Saclay University} % Institution
-%             {Paris, France} % Location
-%             {2012 - 2016} % Date(s)
-%             \vspace{-4ex}%
-%         \cveducation%
-%             {M.S.}
-%             {Grenoble INP - Phelma }
-%             {Grenoble, France}
-%             {2009 - 2012}%
-%         \cveducation%
-%             {B.S. Physics}
-%             {Joseph Fourier University}
-%             {Grenoble, France}
-%             {2007 - 209}%
-%     }
-% \end{cventries}
-
+\cventries{\cvsection{Education}{}}%
+{%
+    \cveducations{%
+        \cveducation%
+            {Ph.D.} % Degree
+            {Paris Saclay University} % Institution
+            {Paris, France} % Location
+            {2012 - 2016}\hfill
+        \cveducation%
+            {M.S.}
+            {Grenoble INP - Phelma }
+            {Grenoble, France}
+            {2009 - 2012}
+        % \cveducation%
+        %     {B.S.}
+        %     {Joseph Fourier University}
+        %     {Grenoble, France}
+        %     {2007 - 2009}%
+    }%
+}
 % == Research Experiences ==
 % =================================================
-\begin{cventries}%
-    \cvsection{Research}{Experiences}%
+\cventries{\cvsection{Research}{Experiences}}%
+{
     \cventry%
-    {Postdoctoral Associate} % Job title
-    {University of Maryland - National Institure of Standards and Technology} % Organization
-    {Maryland, USA} % Location
-    {Feb. 2017 - present} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Study of chip-scale integrated micro-resonators made of Silicon Nitride for frequency comb applications.}
-        \item{Study of novel dispersion design through geometrical tailoring}
-        \item{These researches involves modelling through in-house devloepd software (python, java, julia, matlab) and proprietary softwares, fabrication in cleanroom (ebeam lithography, ICP dry etch, chemistry), and experiment}
-      \end{cvitems}
-    }
+        {Assistant Research Scientist} % Job title
+        {University of Maryland - National Institute of Standards and Technology} % Organization
+        {Maryland, USA} % Location
+        {Jul. 2021 - present} % Date(s)
+        {
+          \begin{cvitems} % Description(s) of tasks/responsibilities
+            \item {Study of chip-scale integrated micro-resonators made $\chi^{(3)}$ suceptible material for non-linear optics applications.}
+            \item{Study of novel dispersion designs for broader, shorter wavelength, and new state of frequency combs in pulse regime}
+            \item{Mentoring of students}
+          \end{cvitems}
+        }
+    \cventry%
+        {Postdoctoral Associate} % Job title
+        {University of Maryland - National Institute of Standards and Technology} % Organization
+        {Maryland, USA} % Location
+        {Feb. 2017 - Jun. 2021} % Date(s)
+        {
+          \begin{cvitems} % Description(s) of tasks/responsibilities
+            \item {Study of chip-scale integrated micro-resonators made of Silicon Nitride for $\chi^{(3)}$ frequency comb applications.}
+            \item{Development of in-house modelling tools, clean-room fabrication, development of new experimental setups}
+          \end{cvitems}
+        }
     \cventry
-    {PhD Candidate} % Job title
-    {Thales Research and Technology} % Organization
-    {Palaiseau, France} % Location
-    {Dec. 2012 - Dec. 2016} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Study of carrier dynamics and its effects on the optical modes in III-V photonic crystal cavities for all-optical
-        and electro-optical signal processing.}
-        \item {I theoretically studied the devices through in-house developed numerical solver, processed them in clean-room, and characterized them with setup developed during this Ph.D.}
-      \end{cvitems}
-    }
-\end{cventries}
+        {PhD Candidate} % Job title
+        {Thales Research and Technology} % Organization
+        {Palaiseau, France} % Location
+        {Dec. 2012 - Dec. 2016} % Date(s)
+        {
+          \begin{cvitems} % Description(s) of tasks/responsibilities
+            \item {Study of carrier dynamics generated through $\chi^{(3)}$ non-linearity in III-V photonic crystals cavities}
+            \item {Development of in-house computational solvers (FDTD, FEM, CMT), fabrication and measurement with custom developed setups}
+          \end{cvitems}
+        }
+}%
 
-
-% =================================================================================================================================================================================================================================
-\begin{cventries}%
-\cvsection{Academic}{Experience}%
-\cventry
-    {} % Job title
-    {Teaching} % Organization
-    {} % Location
-    {} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {some stuff}
-    \end{cvitems}
-    }
-
-  \cventry
-    {} % Job title
-    {Mentoring} % Organization
-    {} % Location
-    {} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {some stuff}
-        \item {some stuff}
-        \item {some stuff}
-      \end{cvitems}
-    }
-\end{cventries}
-
-\begin{cventries}%
-\cvsection{Selected}{Publications}%
-\cventry
-    {} % Job title
-    {Articles} % Organization
-    {} % Location
-    {} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {some stuff}
-        \item {some stuff}
-    \end{cvitems}
-    }
-
-
-%
-%---------------------------------------------------------
-  \cventry
-    {} % Job title
-    {Conferences} % Organization
-    {} % Location
-    {} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {some sutff}
-        \item {some stuff}
-        \item {some stuff}
-      \end{cvitems}
-    }
-%---------------------------------------------------------
-\end{cventries}
-
-\begin{cventries}
-\cvsection{Service to}{Community}
-\end{cventries}
-
-\begin{cventries}
-\cvsection{Skills}{Summary}%
-    \cvskills{%
-        \cvskillentry{Experimental Skills}{%
-            \cvskill{Photonics Charac.}{4.5}
-            \cvskill{Non-Linear Optics}{4}
-            \cvskill{Radio Freq.}{4}
-            \cvskill{Metrology}{3}
-        }%
-        \cvskillentry{NanoFab}{
-            \cvskill{Design Layout}{4}
-            \cvskill{EBL}{4}
-            \cvskill{Dy Etching}{4}
-            \cvskill{Wet Etching}{4}
+% == Academic Experiences ==
+% =================================================
+\cventries{\cvsection{Academic}{Experience}}%
+{%
+   \cventry{}{Teaching}{}{}{%
+        \begin{cvitems} % Description(s) of tasks/responsibilities
+            \item {Teaching assistant -- \textit{1\textsuperscript{st} and 2\textsuperscript{nd} year undergraduate student} -- \textsc{University Paris Saclay} -- 2014}%
+        \end{cvitems}%
+    }%
+    \vspace{0.5ex}
+    \cventry{}{Mentoring}{}{}{
+        \vspace{0.5ex}
+        \begin{cvitems} % Description(s) of tasks/responsibilities 
+            \item{Highschool. Students:%
+                \vspace{1ex}
+                \begin{minipage}[t]{0.6\textwidth}%
+                    \begin{itemize}[leftmargin=*]\scriptsize
+                        \item[] Christy Li  -- \textsc{Montgommery Blair HS (now at MIT)} -- Jul. 2021 $\rightarrow$Aug. 2022%
+                    \end{itemize}%
+                \end{minipage}%
+                \begin{minipage}[t]{0.4\textwidth}%
+                \end{minipage}%
             }%
-        \cvskillentry{Programming}{
-            \cvskill{Python}{5}
-            \cvskill{Matlab}{5}
-            \cvskill{Julia}{4}
-            \cvskill{Java}{3}
-        }%
-        \cvskillentry{Languages}{
-            \cvskill{English}{5}
-            \cvskill{French}{5}
-            \cvskill{Italian}{3}
-            \cvskill{Russian}{2}
+            \item{Undergrad. Students:%
+                \vspace{1ex}
+                \begin{minipage}[t]{0.4\textwidth}%
+                    \begin{itemize}[leftmargin=*]\scriptsize
+                        \item[] Dillion Cottrill  -- \textsc{University of West Virgina} -- 2020%
+                        \item[] Kristiana Ramos  -- \textsc{U.M.D} --  2021$\rightarrow$2022%
+                    \end{itemize}%
+                \end{minipage}%
+                \begin{minipage}[t]{0.4\textwidth}%
+                \end{minipage}%
             }%
+            \vspace{1ex}
+            \item{Graduate Students:%
+                \hfill%
+                \begin{minipage}[t]{0.4\textwidth}%
+                    \begin{itemize}[leftmargin=*]\scriptsize
+                        \item[] Edgar Perez  --{U.M.D} -- 2018 $\rightarrow$ present
+                        \item[] Tahmid Raman -- {U.M.D} -- 2019$\rightarrow$present
+                        \item[] Khoi Tuan Hoang -- {U.M.D} -- 2020$\rightarrow$present
+                        \item[] Shoa-Chein Out -- {U.M.D} -- 2022$\rightarrow$present
+                    \end{itemize}%
+                \end{minipage}%
+                \hfill
+                \vspace{0.5ex}
+                \begin{minipage}[t]{0.4\textwidth}%
+                    \begin{itemize}[leftmargin=*]\scriptsize
+                        \item[] Rahul Shresta -- {U.M.D} -- 2020$\rightarrow$present
+                        \item[] Pradyoth Shandilya -- {U.M.B.C.} -- 2021$\rightarrow$present
+                        \item[] Michal Chojnacky -- {U.M.D} -- 2022$\rightarrow$present
+                    \end{itemize}%
+                \end{minipage}%
+            }%
+            \vspace{1ex}
+        \end{cvitems}%
+    }%
+    \vspace{0.75ex}
+    \cventry{}{Contribution to Funded Projects}{}{}{
+        \textbf{Support staff}:
+        \vspace{1ex}
+        \begin{cvitems} % Description(s) of tasks/responsibilities
+            \item {Agence National de la Recherche (France): \textit{AUCTOPUSS (2013-2015)} --  \textit{ETHAN (2015-2016)}}
+            \item {DARPA (USA): \textit{DODOS (2017-2020)} --  \textit{ACES (2017-2021)} -- \textit{APhi (2019-present)} --  \textit{LUMOS (2021-present)} --  \textit{SAVaNT (2021-present)}}
+            \item {Space Force \& Air Force Research Laboratory (USA): \textit{PICs for SCPNT (2022-present)}}
+        \end{cvitems}
+        \textbf{Co-Principal Investigator}:
+        \vspace{1ex}
+        \begin{cvitems} % Description(s) of tasks/responsibilities
+            \item Marsden Fund:  \textit{``The light between: parametrically driven cavity solitons in pure-Kerr resonators''} (2023-present)
+        \end{cvitems}
     }
-\end{cventries}
+}
 
-% \input{cv/skills.tex}
 
+
+
+% == Selected Publciations ==
+% =================================================
+\cventries{\cvsection{Selected}{Publications} \\
+\vspace{1ex}
+\begin{minipage}{0.8\textwidth}
+    \setstretch{0.2}
+    \begin{itemize}[leftmargin=0ex, nosep]
+    \setlength\itemsep{0.25em}
+        \vspace{1ex}
+        \item[] \subentryhindextyle{>40 peer-reviewed journal articles \flushleft}
+        \item[] \subentryhindextyle{>50 conference proceedings}
+        \item[]  \subentryhindextyle{2 book chapters}
+        \item[]  \subentryhindextyle{>1800 citations as of 02/2024}
+        \item[]  \subentryhindextyle{h-index of 23 as of 02/2024}
+    \end{itemize}
+\end{minipage}}%
+{\cventry{}{Articles}{}{}{
+    \begin{cvlist}
+        \item G. Moille et al. \textit{``Parametrically driven pure-Kerr temporal solitons in a chip-integrated microcavity''}. \textit{in press }\textsc{Nature Photonics}  (2024).
+        \item G. Moille et al. \textit{``Kerr-Induced Synchronization of a Cavity Soliton to an Optical Reference''}. \textsc{Nature} 624.7991 (2023).
+        \item G. Moille al. \textit{``Ultra-broadband Kerr microcomb through soliton spectral translation''}. \textsc{Nature Comm.} 12.1 (2021).
+        \item G. Moille et al. \textit{``Dissipative Kerr Solitons in a III-V Microresonator''}. \textsc{Lasers \& Photonics Rev} 14.8 (2020).
+        \item G. Moille et al. \textit{``Broadband resonator-waveguide coupling for efficient extraction of octave-spanning microcombs''}. \textsc{Optics Letters} 44.19 (2019).
+    \end{cvlist}
+    }
+\cventry{}{Book Chapter}{}{}{
+    \begin{cvlist}
+        \item Colman, S. Combri\'e, A. De Rossi, A. Martin, and G. Moille. Nonlinear Meta- Optics. \textit{``Nonlinear Photonic Crystals''}, pp. 199-250. CRC Press, 2020.
+        \item G. Moille, S. Combri\'e, and A. De Rossi. Green Photonics and Electronics. \textit{``Nanophotonic Approach to Energy-Efficient Ultra-Fast All-Optical Gates''}, pp. 107-137 . Springer, Cham, 2017
+    \end{cvlist}
+    }
+\cventry{}{Conferences}{}{}{
+    \begin{cvlist}
+        \item G. Moille et al. \textit{``All-Optical Kerr Synchronization of a Dissipative Kerr Soliton Microcomb to an Optical Reference''}. {(invited)} Nonlinear Optics. (2023).
+        Nonlinear Optics. (2023)
+        \item G. Moille et al. \textit{``Two-Dimensional Frequency Comb from a Single Dual-Pumped Microring Dissipative Kerr Soliton''}. {(highlighted)} CLEO: Science and Innovations. (2023).
+        \item G. Moille et al. \textit{``All-Optical Kerr Synchronization of a Dissipative Kerr Soliton Microcomb to an Optical Reference for Clockwork Operation''}. {(postdeadline)} CLEO: Science and innovations. (2023).
+        \item G. Moille et al. \textit{``Ultra-Broadband Dissipative Kerr Soliton Microcomb through Dual Pumping Operation''}. {(highlighted)} CLEO: Science and Innovations. (2021).
+        \item G. Moille et al. \textit{``Stable Dissipative Kerr Solitons in a AlGaAs Microresonator Through Cryogenic Operation''}. {(highlighted)} CLEO: Science and Innovations. (2020).
+    \end{cvlist}
+    }
+}
+
+% == Service to  Community ==
+% =================================================
+\cventries{\cvsection{Service to}{Community}}%
+{
+    \cventry{}{Outreach}{}{}%
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+            \item {Maintaining and updating an active \href{https://github.com/gregmoille}{github profile}} to share scripts for experiment control and in-house developed simulations tools. Combined, they account for \textbf{31 forks, 51 stars and an average of 30 unique views per week. }
+      \end{cvitems}
+    }
+    \vspace{1ex}
+    \cventry{}{Peer Reviewing}{}{}%
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+            \item {Referee for \textit{Optica, JOSA B, Optics Letters, Optics Express, OSA Continuum, Nature Communications, Physical Review Letters, Physical Review Applied, Physical Review A, Physical Review Research, Laser and Photonics Reviews,  ACS Photonics, Applied Physics Letters Photonics, Micromachine, SPIE Advanced Photonics}}
+      \end{cvitems}
+    }
+    \vspace{1ex}
+    \cventry{}{Committee Member}{}{}%
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+            \item {2010-2020 --- Siegman international school: Review applications for the OSA Siegman international school on laser for the 2019 and 2020 editions}
+            \item {2023 - present --- SPIE Photonics West: program committee member for Laser Resonators, Microresonators, and Beam Control XXVI conference}
+      \end{cvitems}
+    }
+}
+
+% == Skills ==
+% =================================================
+\cventries{\cvsection{Skills}{Summary}}%
+{
+    \cvskillentry{Relevant Work}{
+        \cvskill{Electromagnetism}{5}
+        \cvskill{Non-Linear Optics}{5}
+        \cvskill{Optoelectronics}{5}
+        \cvskill{Quantum Physics}{4}
+    }\hspace{3ex}%
+    \cvskillentry{Experimental Skills}{%
+        \cvskill{Photonics Charac.}{5}
+        \cvskill{Non-Linear Optics}{5}
+        \cvskill{Radio Freq.}{4}
+        \cvskill{Metrology}{3}
+    }\hspace{3ex}%
+    \cvskillentry{NanoFab}{
+        \cvskill{Design Layout}{5}
+        \cvskill{EBL}{4}
+        \cvskill{Dy Etching}{4}
+        \cvskill{Wet Etching}{4}
+        }
+        \hspace{3ex}%
+     \cvskillentry{E.M. Modeling}{
+        \cvskill{Comsol}{5}
+        \cvskill{Lumerical}{5}
+        \cvskill{Mathematica}{3}
+        \cvskill{HFSS}{3}
+    }\hspace{14.7ex}%
+    \cvskillentry{Languages}{
+        \cvskill{French}{5}
+        \cvskill{English}{5}
+        \cvskill{Russian}{3}
+        \cvskill{Italian}{3}
+        }
+}
+
+% == Complete list of publications ==
+% =================================================
 \clearpage
 \nocite{*} 
-\begin{cventries}
-\cvsection{}{}
-\end{cventries}
 
-\section*{Complete list of publications}
+\clearpage
+\section*{Complete List of Publications}
+\cventries{\cvsection{Popular}{Writing}}{
+    \printbibliography[env=bibnonum, heading=none, type=online]
+}
 
-\begin{cventries}
-\cvsection{Journal}{Article}
-\printbibliography
-\end{cventries}
+\vspace{2em}
+\defbibfilter{papers}{
+  type=article or
+  type=misc
+}
+\cventries{\small\cvsection{Journal}{Articles}}{
+    %
+    \textbf{\color{graytext}2024}
+    \setcheckfromtorange{2024}{2024}
+    \tiny\printbibliography[env=bibnonum, heading=none, filter = papers, check = fromto]
+    %
+    \textbf{\small\color{graytext}2023}
+    \setcheckfromtorange{2023}{2023}
+    \tiny\printbibliography[env=bibnonum, heading=none, filter = papers, check = fromto]
+    %
+    \textbf{\small\color{graytext}2022}
+    \setcheckfromtorange{2022}{2022}
+    \tiny\printbibliography[env=bibnonum, heading=none, filter = papers, check = fromto]
+    %
+    \textbf{\small\color{graytext}2021}
+    \setcheckfromtorange{2021}{2021}
+    \tiny\printbibliography[env=bibnonum, heading=none, filter = papers, check = fromto]
+    %
+    \textbf{\small\color{graytext}2020}
+    \setcheckfromtorange{2020}{2020}
+    \tiny\printbibliography[env=bibnonum, heading=none, filter = papers, check = fromto]
+    %
+    \textbf{\small\color{graytext}2019}
+    \setcheckfromtorange{2019}{2019}
+    \tiny\printbibliography[env=bibnonum, heading=none, filter = papers, check = fromto]
+    %
+    \textbf{\small\color{graytext}2018}
+    \setcheckfromtorange{2018}{2018}
+    \tiny\printbibliography[env=bibnonum, heading=none, filter = papers, check = fromto]
+    %
+    \textbf{\small\color{graytext}2017}
+    \setcheckfromtorange{2017}{2017}
+    \tiny\printbibliography[env=bibnonum, heading=none, filter = papers, check = fromto]
+    %
+    \textbf{\small\color{graytext}2016}
+    \setcheckfromtorange{2016}{2016}
+    \tiny\printbibliography[env=bibnonum, heading=none, filter = papers, check = fromto]
+    %
+    \textbf{\small\color{graytext}2015}
+    \setcheckfromtorange{2015}{2015}
+    \tiny\printbibliography[env=bibnonum, heading=none, filter = papers, check = fromto]
+    %
+    \textbf{\small\color{graytext}2013}
+    \setcheckfromtorange{2013}{2013}
+    \tiny\printbibliography[env=bibnonum, heading=none, filter = papers, check = fromto]
+}
+\vspace{1em}
+\cventries{\cvsection{Book}{Chapters}}{
+    \printbibliography[env=bibnonum, heading=none,type=incollection]
+}
+\vspace{1em}
+\cventries{\cvsection{Conference}{Proceedings}}{
+    \Setmaxbibnames{3}
+    %
+    \textbf{\small\color{graytext}2023}
+    \setcheckfromtorange{2023}{2023}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, check = fromto]
+    %
+    \textbf{\small\color{graytext}2022}
+    \setcheckfromtorange{2022}{2022}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, check = fromto]
+    %
+    \textbf{\small\color{graytext}2021}
+    \setcheckfromtorange{2021}{2021}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, check = fromto]
+    %
+    \textbf{\small\color{graytext}2020}
+    \setcheckfromtorange{2020}{2020}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, check = fromto]
+    %
+    \textbf{\small\color{graytext}2019}
+    \setcheckfromtorange{2019}{2019}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, check = fromto]
+    %
+    \textbf{\small\color{graytext}2018}
+    \setcheckfromtorange{2018}{2018}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, check = fromto]
+    %
+    \textbf{\small\color{graytext}2017}
+    \setcheckfromtorange{2017}{2017}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, check = fromto]
+    %
+    \textbf{\small\color{graytext}2016}
+    \setcheckfromtorange{2016}{2016}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, check = fromto]
+    %
+    \textbf{\small\color{graytext}2015}
+    \setcheckfromtorange{2015}{2015}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, check = fromto]
+    %
+    \textbf{\small\color{graytext}2014}
+    \setcheckfromtorange{2014}{2014}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, check = fromto]
+    %
+    \textbf{\small\color{graytext}2013}
+    \setcheckfromtorange{2013}{2013}
+    \printbibliography[env=bibnonum, heading=none,type=inproceedings, check = fromto]
+}
+%
+\vspace{1em}
+\cventries{\cvsection{Others}{}}{
+    \printbibliography[env=bibnonum,heading=none,type={report}]
+    \printbibliography[env=bibnonum,heading=none,type={thesis}]
+}
 
-\begin{cventries}
-\cvsection{Book}{Chapters}
+\vfill
+\cventries{
+    \entrydatestyle{\textsc{Date: \today}\\Washington, D.C.}
+    }{
+    \vspace{-2ex}
+    \includegraphics[width=3cm]{signature.png}
+    }
 
-\end{cventries}
-
-\begin{cventries}
-\cvsection{Conference}{Proceedings}
-\end{cventries}
 
 %-------------------------------------------------------------------------------
 \end{document}
