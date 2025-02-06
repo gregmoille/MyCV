@@ -19,6 +19,158 @@
 
 \refsection{0}
   \datalist[entry]{ymdt/global//global/global}
+    \entry{multiDKS_photwest2025}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=5b724f35b89db972c5a244bfd29dd346}{%
+           family={Shandilia},
+           familyi={S\bibinitperiod},
+           given={Pradyoth},
+           giveni={P\bibinitperiod}}}%
+        {{hash=40a108fed2551b8330ec446162c59889}{%
+           family={Ou},
+           familyi={O\bibinitperiod},
+           given={Shao-Chien},
+           giveni={S\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=d48b5a46d5b586147c6c13c22e47168f}{%
+           family={Menyuk},
+           familyi={M\bibinitperiod},
+           given={Curtis},
+           giveni={C\bibinitperiod}}}%
+        {{hash=896bdf035e21f2e76c32813693248f53}{%
+           family={Erkintalo},
+           familyi={E\bibinitperiod},
+           given={Miro},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a4321970335a35ce317df5930040dd39}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Grégory},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{efb61812011d09481d6044169d172b0a}
+      \strng{fullhash}{efb61812011d09481d6044169d172b0a}
+      \strng{bibnamehash}{efb61812011d09481d6044169d172b0a}
+      \strng{authorbibnamehash}{efb61812011d09481d6044169d172b0a}
+      \strng{authornamehash}{efb61812011d09481d6044169d172b0a}
+      \strng{authorfullhash}{efb61812011d09481d6044169d172b0a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Laser Resonators, Microresonators, and Beam Control XXVI}
+      \field{title}{Multi-soliton relative-jitter suppression from all-optical trapping for metrology applications}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{13349\bibrangedash 38}
+      \range{pages}{-10}
+      \keyw{short}
+    \endentry
+    \entry{pkis_photwest2025}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=a4321970335a35ce317df5930040dd39}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Grégory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5b724f35b89db972c5a244bfd29dd346}{%
+           family={Shandilia},
+           familyi={S\bibinitperiod},
+           given={Pradyoth},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d48b5a46d5b586147c6c13c22e47168f}{%
+           family={Menyuk},
+           familyi={M\bibinitperiod},
+           given={Curtis},
+           giveni={C\bibinitperiod}}}%
+        {{hash=896bdf035e21f2e76c32813693248f53}{%
+           family={Erkintalo},
+           familyi={E\bibinitperiod},
+           given={Miro},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{8f5b6c5086ec80794badde0a25aa4016}
+      \strng{fullhash}{8f5b6c5086ec80794badde0a25aa4016}
+      \strng{bibnamehash}{8f5b6c5086ec80794badde0a25aa4016}
+      \strng{authorbibnamehash}{8f5b6c5086ec80794badde0a25aa4016}
+      \strng{authornamehash}{8f5b6c5086ec80794badde0a25aa4016}
+      \strng{authorfullhash}{8f5b6c5086ec80794badde0a25aa4016}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Laser Resonators, Microresonators, and Beam Control XXVI}
+      \field{title}{Optical parametric trapping of an integrated dissipative Kerr soliton}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{13349\bibrangedash 12}
+      \range{pages}{-36}
+      \keyw{short}
+    \endentry
+    \entry{trn_photwest2025}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=5b724f35b89db972c5a244bfd29dd346}{%
+           family={Shandilia},
+           familyi={S\bibinitperiod},
+           given={Pradyoth},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7a8a6e343e12da94e69a49ce0c225aa6}{%
+           family={Stone},
+           familyi={S\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d48b5a46d5b586147c6c13c22e47168f}{%
+           family={Menyuk},
+           familyi={M\bibinitperiod},
+           given={Curtis},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8c2fcdee684f2b0dd3e0021cc8fe2bda}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a4321970335a35ce317df5930040dd39}{%
+           family={Moille},
+           familyi={M\bibinitperiod},
+           given={Grégory},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{fdde48fe7509378da3230065065ba8b0}
+      \strng{fullhash}{fdde48fe7509378da3230065065ba8b0}
+      \strng{bibnamehash}{fdde48fe7509378da3230065065ba8b0}
+      \strng{authorbibnamehash}{fdde48fe7509378da3230065065ba8b0}
+      \strng{authornamehash}{fdde48fe7509378da3230065065ba8b0}
+      \strng{authorfullhash}{fdde48fe7509378da3230065065ba8b0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{(invited) Laser Resonators, Microresonators, and Beam Control XXVI}
+      \field{title}{Thermorefractive noise insensitive microcombs through Kerr-Induced synchronization}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{13349\bibrangedash 15}
+      \range{pages}{-33}
+      \keyw{short}
+    \endentry
     \entry{ShandilyaAPLPhotonics2025}{article}{}
       \name{author}{7}{}{%
         {{hash=4fbc276b907fcb1d9fef5d36071f9a45}{%
